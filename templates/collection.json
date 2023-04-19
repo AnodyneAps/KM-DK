@@ -1,5 +1,20 @@
 {
   "sections": {
+    "collection-banner": {
+      "type": "collection-banner",
+      "settings": {
+        "show_collection_image": false,
+        "show_collection_title": true,
+        "show_collection_description": false,
+        "section_height": "small",
+        "text_width": "medium",
+        "image_text_color": "#ffffff",
+        "image_overlay_color": "#282828",
+        "image_overlay_opacity": 30,
+        "truncate_description": 65,
+        "quick_links": ""
+      }
+    },
     "1801f20c-3709-4dbe-8c36-eb9f180ff9e4": {
       "type": "rich-text",
       "settings": {
@@ -22,6 +37,8 @@
       "type": "main-collection",
       "settings": {
         "show_sort_by": false,
+        "show_collection_title": true,
+        "show_collection_description": true,
         "products_per_page": 50,
         "mobile_products_per_row": "2",
         "desktop_products_per_row": 3,
@@ -32,20 +49,6 @@
         "filter_position": "always_visible",
         "promotion_position": "bottom",
         "promotion_height": "small"
-      }
-    },
-    "collection-banner": {
-      "type": "collection-banner",
-      "settings": {
-        "show_collection_image": false,
-        "show_collection_title": true,
-        "show_collection_description": true,
-        "section_height": "small",
-        "text_width": "medium",
-        "image_text_color": "#ffffff",
-        "image_overlay_color": "#000000",
-        "image_overlay_opacity": 30,
-        "quick_links": ""
       }
     },
     "a6cd5aa2-8eaa-4bc4-af0f-8acf575fe12c": {
@@ -59,12 +62,195 @@
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
+    },
+    "cdcf044a-fb2c-45ea-be31-c368391b9e24": {
+      "type": "promotion-blocks",
+      "blocks": {
+        "template--18587075543365__cdcf044a-fb2c-45ea-be31-c368391b9e24-1681882116df57bd22-0": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Din tilfredshed er det vi lever af. Derfor har du 30 dages fuld returret, så du kan teste dit nye produkt inden du beslutter dig.",
+            "title": "✅ 30 dages returret",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "template--18587075543365__cdcf044a-fb2c-45ea-be31-c368391b9e24-1681882116df57bd22-2": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Passer dit produkt ikke? Det er ikke noget problem. Vi bytter med et smil og ombytning koster naturligvis ikke noget.",
+            "title": "✅ Gratis ombytning",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "4b475417-3082-4acd-9960-ece74a0e790b": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Det er vigtigt for os, at du får din pakke så hurtigt som muligt. Vi pakker derfor ordrer næsten alle årets 365 dage.",
+            "title": "✅ 1-2 dages levering",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "32e79bbc-45b9-40b9-be0f-66feab57a865": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Din tilfredshed er det vi lever af. Er du ikke 100% tilfreds med dit produkt, er det både nemt og gratis at ombytte.",
+            "title": "✅ Tilfredshedsgaranti",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "68799e55-f24c-4630-9655-69fab0a27ef7": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Du er altid velkommen til at rette henvendelse til vores kundeservice, hvis du har spørgsmål til vores produkter.",
+            "title": "✅ Brug for hjælp",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "0577f7b0-926b-4c5f-990f-69565faceac2": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Vores kunder elsker os! Vi har nu rundet mere end 300.000 kunder på tværs af alle vores forretninger i hele Europa.",
+            "title": "✅ 300.000+ kunder",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        }
+      },
+      "block_order": [
+        "template--18587075543365__cdcf044a-fb2c-45ea-be31-c368391b9e24-1681882116df57bd22-0",
+        "template--18587075543365__cdcf044a-fb2c-45ea-be31-c368391b9e24-1681882116df57bd22-2",
+        "4b475417-3082-4acd-9960-ece74a0e790b",
+        "32e79bbc-45b9-40b9-be0f-66feab57a865",
+        "68799e55-f24c-4630-9655-69fab0a27ef7",
+        "0577f7b0-926b-4c5f-990f-69565faceac2"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "section_size": "small",
+        "stack_on_mobile": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "852c7064-37b8-49de-b035-9a0c04389d2c": {
+      "type": "collection-description",
+      "custom_css": [
+
+      ],
+      "settings": {
+        "show_collection_title": false,
+        "show_collection_description": true
+      }
+    },
+    "4957f892-dcb8-4da8-b51d-9e2138c985a9": {
+      "type": "faq",
+      "disabled": true,
+      "blocks": {
+        "template--18587075543365__4957f892-dcb8-4da8-b51d-9e2138c985a9-168188271605db7c5b-0": {
+          "type": "category",
+          "settings": {
+            "title": "Shipping"
+          }
+        },
+        "template--18587075543365__4957f892-dcb8-4da8-b51d-9e2138c985a9-168188271605db7c5b-1": {
+          "type": "question",
+          "settings": {
+            "title": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.<\/p>"
+          }
+        },
+        "template--18587075543365__4957f892-dcb8-4da8-b51d-9e2138c985a9-168188271605db7c5b-2": {
+          "type": "question",
+          "settings": {
+            "title": "How long will it take to get my order?",
+            "answer": "<p>It depends on where you are. Orders processed here will take 5-7 business days to arrive. Overseas deliveries can take anywhere from 7-16 days. Delivery details will be provided in your confirmation email.<\/p>"
+          }
+        },
+        "template--18587075543365__4957f892-dcb8-4da8-b51d-9e2138c985a9-168188271605db7c5b-3": {
+          "type": "category",
+          "settings": {
+            "title": "Other"
+          }
+        },
+        "template--18587075543365__4957f892-dcb8-4da8-b51d-9e2138c985a9-168188271605db7c5b-4": {
+          "type": "question",
+          "settings": {
+            "title": "Any question?",
+            "answer": "<p>You can contact us through our contact page! We will be happy to assist you.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "template--18587075543365__4957f892-dcb8-4da8-b51d-9e2138c985a9-168188271605db7c5b-0",
+        "template--18587075543365__4957f892-dcb8-4da8-b51d-9e2138c985a9-168188271605db7c5b-1",
+        "template--18587075543365__4957f892-dcb8-4da8-b51d-9e2138c985a9-168188271605db7c5b-2",
+        "template--18587075543365__4957f892-dcb8-4da8-b51d-9e2138c985a9-168188271605db7c5b-3",
+        "template--18587075543365__4957f892-dcb8-4da8-b51d-9e2138c985a9-168188271605db7c5b-4"
+      ],
+      "settings": {
+        "show_navigation": false,
+        "title": "FAQ",
+        "content": "",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
+    "collection-banner",
     "1801f20c-3709-4dbe-8c36-eb9f180ff9e4",
     "main",
-    "collection-banner",
-    "a6cd5aa2-8eaa-4bc4-af0f-8acf575fe12c"
+    "a6cd5aa2-8eaa-4bc4-af0f-8acf575fe12c",
+    "cdcf044a-fb2c-45ea-be31-c368391b9e24",
+    "852c7064-37b8-49de-b035-9a0c04389d2c",
+    "4957f892-dcb8-4da8-b51d-9e2138c985a9"
   ]
 }

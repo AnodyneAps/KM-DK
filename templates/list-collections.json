@@ -113,6 +113,123 @@
         "text_color": "rgba(0,0,0,0)"
       }
     },
+    "8c45fb0a-2d62-47cb-97bc-70bc2bbf9a32": {
+      "type": "promotion-blocks",
+      "blocks": {
+        "template--18587075871045__8c45fb0a-2d62-47cb-97bc-70bc2bbf9a32-1681882116df57bd22-0": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Passer dit produkt ikke? Det er ikke noget problem. Vi bytter med et smil og ombytning koster naturligvis ikke noget.",
+            "title": "✅ Gratis ombytning",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "template--18587075871045__8c45fb0a-2d62-47cb-97bc-70bc2bbf9a32-1681882116df57bd22-2": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Hos Anodyne® har du 30 dages fuld returret, så du kan teste dit nye produkt inden du beslutter dig.",
+            "title": "✅ 30 dages returret",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "be9de394-e250-4530-8483-bd1322addf30": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Det er vigtigt for os, at du får din pakke så hurtigt som muligt. Vi pakker derfor ordrer næsten alle årets 365 dage.",
+            "title": "✅ 1-2 dages levering",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "0a83e17b-c46f-4321-b9d2-a54dfee43391": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Din tilfredshed er det vi lever af. Er du ikke 100% tilfreds med dit produkt, er det både nemt og gratis at ombytte.",
+            "title": "✅ Tilfredshedsgaranti",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "3ebc2200-e927-41ab-847f-5319fc80b73c": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Du er altid velkommen til at rette henvendelse til vores kundeservice, hvis du har spørgsmål til vores produkter.",
+            "title": "✅ Brug for hjælp",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "c8e87a51-691d-4a22-addd-5cadb4d18edb": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Vores kunder elsker os! Vi har nu rundet mere end 300.000 kunder på tværs af alle vores forretninger i hele Europa.",
+            "title": "✅ 300.000+ kunder",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f8fd",
+            "text_color": "#1e316a",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        }
+      },
+      "block_order": [
+        "template--18587075871045__8c45fb0a-2d62-47cb-97bc-70bc2bbf9a32-1681882116df57bd22-0",
+        "template--18587075871045__8c45fb0a-2d62-47cb-97bc-70bc2bbf9a32-1681882116df57bd22-2",
+        "be9de394-e250-4530-8483-bd1322addf30",
+        "0a83e17b-c46f-4321-b9d2-a54dfee43391",
+        "3ebc2200-e927-41ab-847f-5319fc80b73c",
+        "c8e87a51-691d-4a22-addd-5cadb4d18edb"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "section_size": "small",
+        "stack_on_mobile": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
     "4a7f8dd2-c703-450d-8383-58f9cfe2d556": {
       "type": "featured-collections",
       "blocks": {
@@ -147,6 +264,7 @@
   "order": [
     "main",
     "7a1de581-5cb4-4e2e-b754-ca8b550e3187",
+    "8c45fb0a-2d62-47cb-97bc-70bc2bbf9a32",
     "4a7f8dd2-c703-450d-8383-58f9cfe2d556"
   ]
 }

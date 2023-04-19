@@ -7,7 +7,7 @@
           "type": "image",
           "settings": {
             "image": "shopify:\/\/shop_images\/anodyne_frontpage_hero.jpg",
-            "mobile_image": "shopify:\/\/shop_images\/anodyne_frontpage_hero_mobile_4a1189e1-487a-445e-bc75-386552df04be.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/anodyne-new-mobile_cover.jpg",
             "text_position": "middle_center",
             "subheading": "",
             "title": "Få en bedre kropsholdning med Anodyne®",
@@ -20,7 +20,7 @@
             "button_background": "#398e82",
             "button_text_color": "#ffffff",
             "overlay_color": "#454545",
-            "overlay_opacity": 5
+            "overlay_opacity": 30
           }
         }
       },
@@ -187,6 +187,8 @@
         "layout": "grid",
         "subheading": "",
         "title": "Find dit produkt",
+        "link_text_all": "Se alle",
+        "link_url_all": "shopify:\/\/collections",
         "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
@@ -470,7 +472,7 @@
             "image_width": 10,
             "image_border": "rgba(0,0,0,0)",
             "title": "Patenteret NeuroBand™-teknologi i Anodyne® holdningstøj",
-            "content": "<p>Anodyne® holdningskorrigerende tøj til kvinder og mænd er fremstillet af en unik sammensætning af spandex, polyester og nylon, som giver slidstærke og åndbare produkter, der bevarer elasticitet ved brug og gør tøjet behageligt at have på. Designet benytter den patenterede NeuroBand™-teknologi, der er inspireret af kinesiotape, og baseret på forskning i menneskets fysiologi. Tøjet er designet til at spejle muskulaturens sammentrækkende og eftergivende egenskaber og dermed fremme den en bedre kropsholdning i din hverdag.<\/p>",
+            "content": "<p>Anodyne® holdningskorrigerende tøj til kvinder og mænd er fremstillet af en unik sammensætning af spandex, polyester og nylon, som giver slidstærke og åndbare produkter, der bevarer elasticitet ved brug og gør tøjet behageligt at have på. Designet benytter den patenterede NeuroBand™-teknologi, der er inspireret af kinesiotape, og baseret på forskning i menneskets fysiologi. Tøjet er designet til at spejle muskulaturens sammentrækkende og eftergivende egenskaber og dermed fremme den en bedre kropsholdning i din hverdag - når du er aktiv og når du er stillesiddende.<\/p>",
             "link_text": "UDFORSK NU",
             "link_url": "shopify:\/\/collections",
             "link_style": "button",

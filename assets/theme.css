@@ -12386,16 +12386,17 @@ shopify-payment-terms {
 }
 
 @media screen and (min-width: 1000px) {
-  .product-content__tabs {
+  /* .product-content__tabs {
     flex: none;
     width: calc(var(--grid-column-width) * 10 + var(--grid-gap) * 10);
-  }
+  } */
 
   .product-content__tabs:only-child {
     /* The auto margin allows to center if only tabs are present */
     margin-left: auto;
     margin-right: auto;
-    width: calc(var(--grid-column-width) * 12 + var(--grid-gap) * 12);
+    /* width: calc(var(--grid-column-width) * 12 + var(--grid-gap) * 12); */
+    width: 100%;
   }
 
   /* On lap and up, the inner collapsible are always visible */
@@ -15432,7 +15433,6 @@ order: 2;
 .product-counter-container  p {
     padding-top:13px;
     font-weight: var(--text-font-bold-weight);
-    text-transform: uppercase;
     font-size: calc(var(--base-font-size) - 2px);
     letter-spacing: 2px;
   }
@@ -15588,4 +15588,50 @@ width: 60%;
 .all_link-wrapper .heading--link:hover {
   text-underline-offset: 2px;
   text-decoration-color: rgb(var(--primary-button-background));
+}
+/* collection bottom description  */
+.bottom-description__title {
+display: block;
+font-family: var(--heading-font-family);
+font-weight: var(--heading-font-weight);
+font-style: var(--heading-font-style);
+color: rgb(var(--heading-color));
+font-size: var(--heading-h1-font-size);
+line-height: 1.0714285714;
+letter-spacing: -1px;
+margin: 48px 0 32px;
+text-align: center;
+}
+.bottom-description__seo-text {
+margin-bottom: 32px;
+}
+
+.product-tabs__tab-item-content button {
+display: inline-block;
+padding: 12px 16px;
+}
+.product-tabs__tab-item-content .table__container {
+  padding: 2.5rem;
+}
+.product-tabs__tab-item-content .size-info{
+  padding:0 2.6rem 0 2.6rem;
+  text-align: left;
+}
+@media screen and (min-width: 769px){
+  .bottom-description__seo-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 32px;
+  }
+  .bottom-description__seo-text .cols {
+  flex: 1;
+  }
+  .product-tabs__tab-item-content .table__container {
+  display: flex;
+  justify-content: space-between;
+  }
+  .product-tabs__tab-item-content .size-info{
+  text-align: right;
+  }
 }
