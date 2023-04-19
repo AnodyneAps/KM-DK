@@ -2,12 +2,7 @@
 {%- assign color_white_label = 'general.label.white' | t | downcase -%}
 {%- assign size_label_list = 'general.label.size' | t | replace: ', ', ',' | downcase | split: ',' -%}
 {%- assign product_form_id = 'product-form-' | append: section.id | append: '-' | append: product.id -%}
-{%-liquid
-  assign colors_block = section.blocks | where: 'type', 'colors' | first
-  capture productColorSwatches
-  render 'product-color-swatches' with product:product
-  endcapture
-  -%}
+
 
   <div class="product-form">
   {%- for block in section.blocks -%}
@@ -23,7 +18,9 @@
 
       {%- when 'swatch_colors' -%}
       {% if block.settings.show_colors %}
-        {{ productColorSwatches }}
+        {% if product.metafields.product_custom.thumbnail_color_links != blank %}
+          {{ product.metafields.product_custom.thumbnail_color_links }}
+        {% endif %}
       {% endif %}
       {%- comment -%}
       ----------------------------------------------------------------------------------------------------------------
@@ -313,6 +310,22 @@
       {% if block.settings.text != blank %}
         <div class="product-form__text" {{ block.shopify_attributes }}>
           {{- block.settings.text -}}
+        </div>
+      {%- endif -%}
+
+      {%- comment -%}
+      ----------------------------------------------------------------------------------------------------------------
+      PRODUCT SHORT DISCRIPTION FROM METAFIELD
+      ----------------------------------------------------------------------------------------------------------------
+      {%- endcomment -%}
+      {%- when 'short-description' -%}
+      {% if block.settings.short-description != blank %}
+        <div class="product-form__text" {{ block.shopify_attributes }}>
+          {%- if product.metafields.custom.top_description != blank -%}
+            <div class="product__top__description">
+              {{ product.metafields.custom.top_description }}
+            </div>
+          {%- endif -%}
         </div>
       {%- endif -%}
 

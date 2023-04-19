@@ -81,6 +81,7 @@
 }
 
 html {
+  scroll-behavior: smooth;
   font-family: sans-serif;
   -ms-overflow-style: -ms-autohiding-scrollbar;
   -webkit-text-size-adjust: 100%;
@@ -89,6 +90,7 @@ html {
 
 body {
   margin: 0;
+
 }
 
 [hidden] {
@@ -3270,20 +3272,22 @@ p + .button-group,
 
 .quantity-selector {
   --quantity-selector-height: 46px;
-  display: inline-flex;
+  /* display: inline-flex; */
+  display: flex;
   align-items: center;
-  justify-content: flex-start;
+  /* justify-content: flex-start; */
+  justify-content: space-between;
   border: 1px solid rgb(var(--border-color));
   border-radius: var(--button-border-radius);
   vertical-align: middle;
 }
-
 .quantity-selector__button {
   display: flex;
   justify-content: center;
   align-items: center;
   height: var(--quantity-selector-height);
   width: var(--quantity-selector-height);
+  background-color: rgba(244,244,244,0.6);
 }
 
 .quantity-selector__input {
@@ -8162,10 +8166,9 @@ input:checked + .popover__choice-label::after,
   display: block;
   margin-top: 6px;
   height: 7px;
-  border: 2px solid currentColor;
+  border: 1px solid rgb(var(--primary-button-background));
   border-radius: 4px;
 }
-
 .shipping-bar__progress::after {
   position: absolute;
   content: '';
@@ -8173,10 +8176,55 @@ input:checked + .popover__choice-label::after,
   right: 0;
   bottom: 0;
   left: 0;
-  background: currentColor;
-  transition: transform 0.2s ease;
-  transform: scaleX(var(--progress));
-  transform-origin: var(--transform-origin-start);
+  background: rgb(var(--primary-button-background));
+  background-image: linear-gradient(45deg,rgba(255,255,255,.4) 25%,transparent 0,transparent 50%,rgba(255,255,255,.4) 0,rgba(255,255,255,.4) 75%,transparent 0,transparent);
+  background-size: 1rem 1rem;
+  transition: all 0.3s ease;
+
+    -webkit-animation: progress-bar-stripes 1s linear infinite;
+    -moz-animation: progress-bar-stripes 1s linear infinite;
+    -ms-animation: progress-bar-stripes 1s linear infinite;
+    -o-animation: progress-bar-stripes 1s linear infinite;
+    animation: progress-bar-stripes 1s linear infinite;
+}
+.shipping-bar__progress .progress__truck {
+    width: 32px;
+    position: absolute;
+    top: -14px;
+    right: -2px;
+    z-index: 2;
+    background: white;
+    padding: 2px;
+    border: 1px solid rgb(var(--primary-button-background));
+    border-radius: 50%;
+}
+@-webkit-keyframes progress-bar-stripes {
+  0% {
+    background-position: 0 0; }
+
+  100% {
+    background-position: 1rem 0; } }
+
+@-moz-keyframes progress-bar-stripes {
+  0% {
+    background-position: 0 0; }
+
+  100% {
+    background-position: 1rem 0; } }
+
+@-ms-keyframes progress-bar-stripes {
+  0% {
+    background-position: 0 0; }
+
+  100% {
+    background-position: 1rem 0; } }
+
+@keyframes progress-bar-stripes {
+  0% {
+    background-position: 0 0; }
+
+  100% {
+    background-position: 1rem 0; }
 }
 
 .shipping-bar--large {
@@ -12004,9 +12052,8 @@ input:checked + .popover__choice-label::after,
     flex-direction: row-reverse;
     align-items: flex-start;
    /* Thumbnails sticky scroll added */
-/*     position: sticky;
-    top: 120px; 
-    z-index: 5; */
+  position: sticky;
+    top: 20px; 
   }
 
   .product--thumbnails-left .product__media-nav {
@@ -12235,6 +12282,60 @@ input:checked + .popover__choice-label::after,
   width: 100%;
 }
 
+.product__top__description {
+    font-size: 0.955rem;
+    line-height: 1.4;
+}
+.product__top__description a {
+  color: rgb(var(--primary-button-background));
+}
+
+/* thumnail color links  */
+
+.product-thumbnails_wrapper {
+  margin-bottom:12px;
+}
+.product-thumbnails_wrapper .thumbnails_color_links_inner_wrapper{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+.thumbnails_color_links_inner_wrapper .thumbnail_color_links{
+      --tbw: 50px;
+      display: inline-block;
+      width: var(--tbw);
+      height: var(--tbw);
+      border-radius:var(--tbw);
+      margin-right:10px;
+}
+.thumbnails_color_links_inner_wrapper .black {
+        background-color: black;
+}
+.thumbnails_color_links_inner_wrapper .white {
+        background-color: rgba(251, 251, 251, 0.6);
+        border: 1px solid rgba(241, 241, 241, 0.8);
+}
+.thumbnails_color_links_inner_wrapper .nude {
+        background-color: #e0b296;
+}
+.thumbnails_color_links_inner_wrapper .green {
+     background-color: #B8D1CE;
+}
+.thumbnails_color_links_inner_wrapper .blue {
+        background-color: #69B4D8;
+}
+.thumbnails_color_links_inner_wrapper .grey {
+        background-color: #666666;
+}
+.thumbnails_color_links_inner_wrapper .mint {
+        background-color: #77E0C7;
+}
+.thumbnails_color_links_inner_wrapper .dark-blue {
+     background-color: #17415A;
+}
+.thumbnails_color_links_inner_wrapper .active-color{
+      box-shadow: 0 0 0 2px white, 0 0 0 4px rgb(var(--primary-button-background));
+}
 /* Custom element that controls the "payment terms" */
 shopify-payment-terms {
   display: block;
