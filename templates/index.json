@@ -1,0 +1,626 @@
+{
+  "sections": {
+    "cdb7760c-557d-45e2-9a03-c6d248a262b0": {
+      "type": "slideshow",
+      "blocks": {
+        "template--18587075838277__cdb7760c-557d-45e2-9a03-c6d248a262b0-16818034204a3ad92e-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/anodyne_frontpage_hero.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/anodyne_frontpage_hero_mobile_4a1189e1-487a-445e-bc75-386552df04be.jpg",
+            "text_position": "middle_center",
+            "subheading": "",
+            "title": "Få en bedre kropsholdning med Anodyne®",
+            "subtitle": "<h4>Prøv den originale og patenterede Posture Shirt™. Flere end 150.000 tilfredse kunder i Danmark<\/h4>",
+            "button_1_text": "Udforsk nu",
+            "button_1_link": "shopify:\/\/collections",
+            "button_2_text": "",
+            "button_2_link": "",
+            "text_color": "#ffffff",
+            "button_background": "#398e82",
+            "button_text_color": "#ffffff",
+            "overlay_color": "#454545",
+            "overlay_opacity": 5
+          }
+        }
+      },
+      "block_order": [
+        "template--18587075838277__cdb7760c-557d-45e2-9a03-c6d248a262b0-16818034204a3ad92e-1"
+      ],
+      "settings": {
+        "section_height": "auto",
+        "transition_type": "sweep",
+        "autoplay": true,
+        "cycle_speed": 5,
+        "background": "rgba(0,0,0,0)"
+      }
+    },
+    "0c631ef2-00cb-46f0-ab33-886ed57e7419": {
+      "type": "hero-custom-vedio",
+      "disabled": true,
+      "settings": {
+        "page_width": "fixed_width",
+        "height": "large",
+        "newvideo_link": "",
+        "show_overlay": false,
+        "image": "shopify:\/\/shop_images\/anodyne_frontpage_hero.jpg",
+        "image_position": "center center",
+        "video_title": "Få en bedre kropsholdning med Anodyne®",
+        "svg_selector": "none",
+        "text_size": "medium",
+        "text_description": "<p>Prøv den originale og patenterede Posture Shirt™. Flere end 150.000 tilfredse kunder i Danmark<\/p>",
+        "text_description_size": "medium",
+        "button_label": "Udforsk nu",
+        "button_link": "shopify:\/\/collections",
+        "second_button_label": "",
+        "second_button_link": "",
+        "show_scrolldown": false
+      }
+    },
+    "8e6d343e-2f83-49ce-ac57-4e9e78715644": {
+      "type": "collection-list",
+      "blocks": {
+        "template--16217530597525__8e6d343e-2f83-49ce-ac57-4e9e78715644-1681390205a6ccc869-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/Bestseller_1512x_113abf52-98c0-41c4-916c-1f27fe4b06c0.webp",
+            "subheading": "",
+            "title": "Bestsellers",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/bedst-solgte",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "template--16217530597525__8e6d343e-2f83-49ce-ac57-4e9e78715644-1681390205a6ccc869-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/cat-new-Women.w640.h391.backdrop_1296x_93efad5a-973b-4078-b5e8-62eb460fb34e.webp",
+            "subheading": "",
+            "title": "Kvinder",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/kvinder",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "template--16217530597525__8e6d343e-2f83-49ce-ac57-4e9e78715644-1681390205a6ccc869-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/cat-new-Men.w640.h391.backdrop_1296x_21062531-896f-4b76-a4c8-0d9213d68003.webp",
+            "subheading": "",
+            "title": "Mænd",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/maend",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "template--16217530597525__8e6d343e-2f83-49ce-ac57-4e9e78715644-1681390205a6ccc869-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/cat-new-Posture-Shirt.w640.h391.backdrop_900x_054494b5-7e2c-4fdd-99ac-5c48b3ba91f8.jpg",
+            "subheading": "",
+            "title": "Posture Shirt™",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/posture-shirt",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "60515842-6cf5-46e1-a9c6-7854c8f3ebca": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/cat-new-Back-support-v2-min.w640.h391.backdrop_1512x_20995b88-1f5a-4156-a2e3-587a91755657.webp",
+            "subheading": "",
+            "title": "Rygstøtte",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/rygstoette",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "23c14e0e-8cb1-4657-84a4-015ec7339440": {
+          "type": "collection",
+          "settings": {
+            "collection": "andre-produkter",
+            "subheading": "",
+            "title": "Hjælpemidler",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "367750dd-a58b-46e0-a729-f1261e100b45": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "image": "shopify:\/\/shop_images\/heros-center_540x_585e9bdd-6786-4208-9836-acdfd32b7fad.webp",
+            "subheading": "",
+            "title": "Restsalg",
+            "link_text": "",
+            "link_url": "shopify:\/\/collections\/demosalg",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 10
+          }
+        },
+        "b1c5c4b4-b5c2-44e2-a84b-8e17b307c2a2": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "title": "",
+            "link_text": "",
+            "link_url": "",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "template--16217530597525__8e6d343e-2f83-49ce-ac57-4e9e78715644-1681390205a6ccc869-0",
+        "template--16217530597525__8e6d343e-2f83-49ce-ac57-4e9e78715644-1681390205a6ccc869-1",
+        "template--16217530597525__8e6d343e-2f83-49ce-ac57-4e9e78715644-1681390205a6ccc869-2",
+        "template--16217530597525__8e6d343e-2f83-49ce-ac57-4e9e78715644-1681390205a6ccc869-3",
+        "60515842-6cf5-46e1-a9c6-7854c8f3ebca",
+        "23c14e0e-8cb1-4657-84a4-015ec7339440",
+        "367750dd-a58b-46e0-a729-f1261e100b45",
+        "b1c5c4b4-b5c2-44e2-a84b-8e17b307c2a2"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "layout": "grid",
+        "subheading": "",
+        "title": "Find dit produkt",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "97d460d2-984d-4b23-875b-f7cb7d9cd8c7": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"541889ee00006400057a5d7f\" data-style-height=\"240px\" data-style-width=\"100%\" data-theme=\"light\" data-stars=\"5\" data-review-languages=\"da\">\n  <a href=\"https:\/\/dk.trustpilot.com\/review\/www.anodyne.dk\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "featured-collections": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "bedst-solgte",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection-1"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Bestsellers",
+        "content": "",
+        "products_count": 6,
+        "products_per_row": 3,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "5c437ad2-db5c-4146-a312-1c6b82e9abe8": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<p style=\"text-align: center\">Med <a href=\"\/\"><span style=\"text-decoration:underline\">holdningskorrigerende tøj<\/span><\/a> fra Anodyne® kan du på en enkelt og ubesværet måde opnå en bedre kropsholdning og reducere smerter og spændinger i nakke, skuldre og ryg. Anodyne® <a href=\"\/collections\/alle-produkter\/\"><span style=\"text-decoration:underline\">holdningstøj til mænd og kvinder<\/span><\/a> hjælper dig til at øge din kropsholdningsbevidsthed og kan bruges både, når du sidder på kontoret, rejser, er aktiv på jobbet eller bruger det til træning. Anodyne® er europæisk producent og distributør af holdningskorrigerende tøj med teknologi udviklet af amerikanske AlignMed - verdens eneste producent af holdningskorrigerende tøj, der er registreret hos USA’s føderale fødevare- og lægemiddelmyndighed (FDA). Anodyne® holdningskorrigerende tøj er som det eneste i Europa både FDA-registreret og MDR\/CE-mærket som medicinsk udstyr (Klasse I), hvilket er din garanti for, at vores produkter lever op til de krav, der stilles for medicinsk udstyr. Vi sælger også en række forskellige <a href=\"\/collections\/rygstoette\"><span style=\"text-decoration:underline\">produkter til rygstøtte<\/span><\/a>, både i form af holdningsveste, <a href=\"\/collections\/skulderstoette\"><span style=\"text-decoration:underline\">skulderstøtter<\/span><\/a>, ergonomiske puder mm.<\/p>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "be3dae1e-dfb8-4086-a50e-1c71e613136b": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p>Med <a href=\"https:\/\/www.anodyne.dk\/\"><strong>holdningskorrigerende tøj<\/strong><\/a> fra Anodyne® kan du på en enkelt og ubesværet måde opnå en bedre kropsholdning og reducere smerter og spændinger i nakke, skuldre og ryg. Anodyne® <a href=\"https:\/\/www.anodyne.dk\/collections\/alle-produkter\/\"><strong>holdningstøj til mænd og kvinder<\/strong><\/a> hjælper dig til at øge din kropsholdningsbevidsthed og kan bruges både,når du sidder på kontoret, rejser, er aktiv på jobbet eller bruger det til træning. <\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "fill",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "080e5e36-ad6f-44ea-b79b-f336bc93a3b2": {
+      "type": "custom-html",
+      "disabled": true,
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<p style=\"text-align: center\">Med holdningskorrigerende tøj fra Anodyne® kan du på en enkelt og ubesværet måde opnå en bedre kropsholdning og reducere smerter og spændinger i nakke, skuldre og ryg. Anodyne® holdningstøj til mænd og kvinder hjælper dig til at øge din kropsholdningsbevidsthed og kan bruges både,når du sidder på kontoret, rejser, er aktiv på jobbet eller bruger det til træning. <\/p>\n<br>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "text-with-icons": {
+      "type": "text-with-icons",
+      "disabled": true,
+      "blocks": {
+        "item-1": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-return-box",
+            "custom_icon_width": 200,
+            "title": "✅ Gratis ombytning",
+            "content": "<p>Passer dit produkt ikke? Det er ikke noget problem. Vi bytter med et smil og ombytning koster naturligvis ikke noget.<\/p>"
+          }
+        },
+        "item-2": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-like",
+            "custom_icon_width": 50,
+            "title": "✅ 30 dages returret",
+            "content": "<p>Hos Anodyne® har du 30 dages fuld returret, så du kan teste dit nye produkt inden du beslutter dig.<\/p>"
+          }
+        },
+        "item-3": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-fast-delivery",
+            "custom_icon_width": 50,
+            "title": "✅ 1-2 dages levering",
+            "content": "<p>Det er vigtigt for os, at du får din pakke så hurtigt som muligt. Vi pakker derfor ordrer næsten alle årets 365 dage.<\/p>"
+          }
+        },
+        "item-4": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-love",
+            "custom_icon_width": 40,
+            "title": "✅ Tilfredshedsgaranti",
+            "content": "<p>Din tilfredshed er det vi lever af. Er du ikke 100% tilfreds med dit produkt, er det både nemt og gratis at ombytte.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item-1",
+        "item-2",
+        "item-3",
+        "item-4"
+      ],
+      "settings": {
+        "background": "#f7f7f7",
+        "text_color": "#282828"
+      }
+    },
+    "59e244f6-6d46-4a33-81aa-e672c03fb21c": {
+      "type": "promotion-blocks",
+      "blocks": {
+        "template--18587075838277__59e244f6-6d46-4a33-81aa-e672c03fb21c-1681805611ec79b56f-0": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Passer dit produkt ikke? Det er ikke noget problem. Vi bytter med et smil og ombytning koster naturligvis ikke noget.",
+            "title": "✅ Gratis ombytning",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f7f7",
+            "text_color": "#454545",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "template--18587075838277__59e244f6-6d46-4a33-81aa-e672c03fb21c-1681805611ec79b56f-2": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Hos Anodyne® har du 30 dages fuld returret, så du kan teste dit nye produkt inden du beslutter dig.",
+            "title": "✅ 30 dages returret",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f7f7",
+            "text_color": "#454545",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "55628a42-7659-410d-9fb6-246652cf78a5": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Det er vigtigt for os, at du får din pakke så hurtigt som muligt. Vi pakker derfor ordrer næsten alle årets 365 dage.",
+            "title": "✅ 1-2 dages levering",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f7f7",
+            "text_color": "#454545",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "21e4abb0-1f4d-4dd5-a028-7e6c2e0babc1": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Din tilfredshed er det vi lever af. Er du ikke 100% tilfreds med dit produkt, er det både nemt og gratis at ombytte.",
+            "title": "✅ Tilfredshedsgaranti",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f7f7",
+            "text_color": "#454545",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "eec1e638-46d0-413b-94ac-50cbe065a87d": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Du er altid velkommen til at rette henvendelse til vores kundeservice, hvis du har spørgsmål til vores produkter.",
+            "title": "✅ Brug for hjælp",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f7f7",
+            "text_color": "#454545",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        },
+        "4e73a1d1-632f-4a35-b38f-6c5116954df8": {
+          "type": "image",
+          "settings": {
+            "highlight": false,
+            "subheading": "Vores kunder elsker os! Vi har nu rundet mere end 300.000 kunder på tværs af alle vores forretninger i hele Europa.",
+            "title": "✅ 300.000+ kunder",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link",
+            "text_position": "middle_center",
+            "background": "#f7f7f7",
+            "text_color": "#454545",
+            "button_background": "#ffffff",
+            "button_text_color": "#1e316a"
+          }
+        }
+      },
+      "block_order": [
+        "template--18587075838277__59e244f6-6d46-4a33-81aa-e672c03fb21c-1681805611ec79b56f-0",
+        "template--18587075838277__59e244f6-6d46-4a33-81aa-e672c03fb21c-1681805611ec79b56f-2",
+        "55628a42-7659-410d-9fb6-246652cf78a5",
+        "21e4abb0-1f4d-4dd5-a028-7e6c2e0babc1",
+        "eec1e638-46d0-413b-94ac-50cbe065a87d",
+        "4e73a1d1-632f-4a35-b38f-6c5116954df8"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "section_size": "small",
+        "stack_on_mobile": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "5a719341-2b15-4bb3-b311-938861636d03": {
+      "type": "video",
+      "settings": {
+        "subheading": "Unik og patenteret teknologi - inspireret af kinesio taping",
+        "title": "Fra kinesiotape til tøj",
+        "video": "shopify:\/\/files\/videos\/anodyne_cover_video.mp4",
+        "video_url": "",
+        "background_type": "full_width",
+        "video_size": "medium",
+        "autoplay": true,
+        "show_video_controls": false,
+        "background": "#f7f7f7",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "c03d3e9f-f58b-43a3-9420-6a9d5f0433ae": {
+      "type": "multi-column",
+      "blocks": {
+        "template--16217530597525__c03d3e9f-f58b-43a3-9420-6a9d5f0433ae-168138941254ff7044-0": {
+          "type": "item",
+          "settings": {
+            "image_width": 10,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Patenteret NeuroBand™-teknologi i Anodyne® holdningstøj",
+            "content": "<p>Anodyne® holdningskorrigerende tøj til kvinder og mænd er fremstillet af en unik sammensætning af spandex, polyester og nylon, som giver slidstærke og åndbare produkter, der bevarer elasticitet ved brug og gør tøjet behageligt at have på. Designet benytter den patenterede NeuroBand™-teknologi, der er inspireret af kinesiotape, og baseret på forskning i menneskets fysiologi. Tøjet er designet til at spejle muskulaturens sammentrækkende og eftergivende egenskaber og dermed fremme den en bedre kropsholdning i din hverdag.<\/p>",
+            "link_text": "UDFORSK NU",
+            "link_url": "shopify:\/\/collections",
+            "link_style": "button",
+            "text_alignment": "center",
+            "vertical_alignment": "center"
+          }
+        },
+        "template--16217530597525__c03d3e9f-f58b-43a3-9420-6a9d5f0433ae-168138941254ff7044-1": {
+          "type": "item",
+          "settings": {
+            "image_width": 10,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Holdningskorrigerende tøj til dit behov",
+            "content": "<p>Holdningskorrigerende tøj fra Anodyne® kan anvendes af alle. Vi forhandler holdningskorrigerende t-shirts, BH’er og veste, der alle er udviklet til at hjælpe med at aktivere muskulaturen og blodcirkulationen, og derved minde kroppen om en mere optimal holdning. Anodyne® holdningskorrigerende T-shirts og BH’er kan anvendes når som helst - når du træner, handler ind, går tur, gør rent eller ved andre aktiviteter. For at få mest ud af Anodyne® holdningskorrigerende tøj, anbefaler vi, at du læser den medsendte brugsvejledning, så du har de bedste forudsætninger<\/p>",
+            "link_text": "UDFORSK NU",
+            "link_url": "shopify:\/\/collections",
+            "link_style": "button",
+            "text_alignment": "center",
+            "vertical_alignment": "start"
+          }
+        },
+        "template--16217530597525__c03d3e9f-f58b-43a3-9420-6a9d5f0433ae-168138941254ff7044-2": {
+          "type": "item",
+          "settings": {
+            "image_width": 10,
+            "image_border": "rgba(0,0,0,0)",
+            "title": "Kan også bruges af dig med skader og smerter",
+            "content": "<p>Døjer du med en skade, eller har du eks. en diskusprolaps, scoliose, gigt eller lignende, kan du med fordel anvende holdningskorrigerende tøj, men er du endnu ikke udredt, anbefaler vi, at du konsulterer en fagprofessionel. Det er desuden vigtigt, at du vælger holdningskorrigerende tøj i den rigtige størrelse, da du ellers ikke opnår den optimale effekt. Husk derfor at tjekke størrelsesguiden omhyggeligt. Du er også velkommen til at kontakte vores kundeservice, der gerne hjælper med at svare på spørgsmål om vores produkter, samt at finde din rette størrelse.<\/p>",
+            "link_text": "UDFORSK NU",
+            "link_url": "shopify:\/\/collections",
+            "link_style": "button",
+            "text_alignment": "center",
+            "vertical_alignment": "center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16217530597525__c03d3e9f-f58b-43a3-9420-6a9d5f0433ae-168138941254ff7044-0",
+        "template--16217530597525__c03d3e9f-f58b-43a3-9420-6a9d5f0433ae-168138941254ff7044-1",
+        "template--16217530597525__c03d3e9f-f58b-43a3-9420-6a9d5f0433ae-168138941254ff7044-2"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "stack_items": true,
+        "subheading": "",
+        "title": "Smertelinding med holdningstøj fra Anodyne®",
+        "content": "",
+        "column_alignment": "center",
+        "mobile_item_size": "large",
+        "desktop_item_size": "large",
+        "spacing": "tight",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "de594507-95aa-4168-bc53-1c141c0792aa": {
+      "type": "shop-the-look",
+      "blocks": {
+        "template--16217530597525__de594507-95aa-4168-bc53-1c141c0792aa-16817212180ac44093-0": {
+          "type": "look",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/product-collection_674b2f53-88f5-44eb-8d7f-ea1e3fa11ff4.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/product-collection-mobile.jpg",
+            "dot_type": "normal",
+            "product_1": "laendebaelte",
+            "product_1_horizontal_position": 28,
+            "product_1_vertical_position": 70,
+            "product_1_horizontal_position_mobile": 18,
+            "product_1_vertical_position_mobile": 84,
+            "product_2": "skulderstoette-premium",
+            "product_2_horizontal_position": 51,
+            "product_2_vertical_position": 49,
+            "product_2_horizontal_position_mobile": 49,
+            "product_2_vertical_position_mobile": 60,
+            "product_3": "mens-posture-shirt-sort",
+            "product_3_horizontal_position": 80,
+            "product_3_vertical_position": 38,
+            "product_3_horizontal_position_mobile": 88,
+            "product_3_vertical_position_mobile": 63
+          }
+        }
+      },
+      "block_order": [
+        "template--16217530597525__de594507-95aa-4168-bc53-1c141c0792aa-16817212180ac44093-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "label": "Shop the looks"
+      }
+    },
+    "37a3971a-4d55-4156-87ad-193a04a88685": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--16217530597525__37a3971a-4d55-4156-87ad-193a04a88685-168139000762108d8c-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/laende-ryg.jpg",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "Hvorfor vælge holdningstøj fra Anodyne?",
+            "content": "<p>Anodyne® er europæisk producent og distributør af holdningskorrigerende tøj med teknologi udviklet af amerikanske AlignMed - verdens eneste producent af holdningskorrigerende tøj, der er registreret hos USA’s føderale fødevare- og lægemiddelmyndighed (FDA).<br\/><br\/>Anodyne® holdningskorrigerende tøj er som det eneste i Europa både FDA-registreret og MDR\/CE-mærket som medicinsk udstyr (Klasse I), hvilket er din garanti for, at vores produkter lever op til de krav, der stilles for medicinsk udstyr. Vi sælger også en række forskellige <a href=\"https:\/\/www.anodyne.dk\/collections\/rygstoette\"><span style=\"text-decoration:underline\">produkter til rygstøtte<\/span><\/a>, både i form af holdningsveste,<a href=\"https:\/\/www.anodyne.dk\/collections\/skulderstoette\"><span style=\"text-decoration:underline\"> skulderstøtter<\/span><\/a>, ergonomiske puder mm.<\/p>",
+            "button_text": "UDFORSK NU",
+            "button_link": "shopify:\/\/collections"
+          }
+        }
+      },
+      "block_order": [
+        "template--16217530597525__37a3971a-4d55-4156-87ad-193a04a88685-168139000762108d8c-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "48123f46-b24b-484c-a78b-e5de7034baed": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<!-- TrustBox widget - Horizontal -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"5406e65db0d04a09e042d5fc\" data-businessunit-id=\"541889ee00006400057a5d7f\" data-style-height=\"28px\" data-style-width=\"100%\" data-theme=\"light\">\n  <a href=\"https:\/\/dk.trustpilot.com\/review\/www.anodyne.dk\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->\n<br>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "cdb7760c-557d-45e2-9a03-c6d248a262b0",
+    "0c631ef2-00cb-46f0-ab33-886ed57e7419",
+    "8e6d343e-2f83-49ce-ac57-4e9e78715644",
+    "97d460d2-984d-4b23-875b-f7cb7d9cd8c7",
+    "featured-collections",
+    "5c437ad2-db5c-4146-a312-1c6b82e9abe8",
+    "be3dae1e-dfb8-4086-a50e-1c71e613136b",
+    "080e5e36-ad6f-44ea-b79b-f336bc93a3b2",
+    "text-with-icons",
+    "59e244f6-6d46-4a33-81aa-e672c03fb21c",
+    "5a719341-2b15-4bb3-b311-938861636d03",
+    "c03d3e9f-f58b-43a3-9420-6a9d5f0433ae",
+    "de594507-95aa-4168-bc53-1c141c0792aa",
+    "37a3971a-4d55-4156-87ad-193a04a88685",
+    "48123f46-b24b-484c-a78b-e5de7034baed"
+  ]
+}

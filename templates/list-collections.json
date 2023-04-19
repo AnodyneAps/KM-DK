@@ -1,0 +1,152 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "915db04c-cf4e-45cc-989c-f331a89f7873": {
+          "type": "collection",
+          "settings": {
+            "collection": "demosalg",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "666e27f9-9682-4289-895e-82cc691d822b": {
+          "type": "collection",
+          "settings": {
+            "collection": "bedst-solgte",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "887d80bf-b4b1-4e45-b33c-a722262f07fd": {
+          "type": "collection",
+          "settings": {
+            "collection": "kvinder",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "560a82dd-9711-4118-8e7a-d76e2762b73b": {
+          "type": "collection",
+          "settings": {
+            "collection": "maend",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "ea11fbf4-f45a-41b5-ae58-9bafafcea64d": {
+          "type": "collection",
+          "settings": {
+            "collection": "posture-shirt",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "7b829f4b-1f87-4e72-b4f8-da9f016cd78e": {
+          "type": "collection",
+          "settings": {
+            "collection": "rygstoette",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "dd604076-571e-4dd7-802d-291cb4ea2695": {
+          "type": "collection",
+          "settings": {
+            "collection": "skulderstoette",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "f76ab255-2d18-46ae-b507-994c7bc55648": {
+          "type": "collection",
+          "settings": {
+            "collection": "andre-produkter",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
+        "ef2a7b17-60b6-48fe-b755-a33cec665a87": {
+          "type": "collection",
+          "settings": {
+            "collection": "alle-produkter",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "915db04c-cf4e-45cc-989c-f331a89f7873",
+        "666e27f9-9682-4289-895e-82cc691d822b",
+        "887d80bf-b4b1-4e45-b33c-a722262f07fd",
+        "560a82dd-9711-4118-8e7a-d76e2762b73b",
+        "ea11fbf4-f45a-41b5-ae58-9bafafcea64d",
+        "7b829f4b-1f87-4e72-b4f8-da9f016cd78e",
+        "dd604076-571e-4dd7-802d-291cb4ea2695",
+        "f76ab255-2d18-46ae-b507-994c7bc55648",
+        "ef2a7b17-60b6-48fe-b755-a33cec665a87"
+      ],
+      "settings": {
+        "collections_to_show": "selected",
+        "show_collection_title": true
+      }
+    },
+    "7a1de581-5cb4-4e2e-b754-ca8b550e3187": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"541889ee00006400057a5d7f\" data-style-height=\"240px\" data-style-width=\"100%\" data-theme=\"light\" data-stars=\"5\" data-review-languages=\"da\">\n  <a href=\"https:\/\/dk.trustpilot.com\/review\/www.anodyne.dk\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->\n<br>",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "4a7f8dd2-c703-450d-8383-58f9cfe2d556": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--18587075871045__4a7f8dd2-c703-450d-8383-58f9cfe2d556-16818068074a20a897-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "bedst-solgte",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--18587075871045__4a7f8dd2-c703-450d-8383-58f9cfe2d556-16818068074a20a897-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Bestsellers",
+        "content": "",
+        "products_count": 6,
+        "products_per_row": 3,
+        "stack_products": true,
+        "show_cta": false,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "7a1de581-5cb4-4e2e-b754-ca8b550e3187",
+    "4a7f8dd2-c703-450d-8383-58f9cfe2d556"
+  ]
+}

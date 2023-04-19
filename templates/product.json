@@ -1,0 +1,226 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "3949e64b-3ef3-462f-8cb5-9cfb151811cd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/registreringer_149c6050-f40c-482d-9a88-e01369787889.jpg",
+            "image_alignment": "center",
+            "image_width": 500
+          }
+        },
+        "a8a3f231-8a84-4354-a9fd-4d9059951169": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- TrustBox widget - Micro Star -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"5419b732fbfb950b10de65e5\" data-businessunit-id=\"541889ee00006400057a5d7f\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"light\">\n  <a href=\"https:\/\/dk.trustpilot.com\/review\/www.anodyne.dk\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->"
+          }
+        },
+        "ae6eb174-aa0c-4da3-bb2a-00c9fc61ff9b": {
+          "type": "swatch_colors",
+          "settings": {
+            "show_colors": false
+          }
+        },
+        "variant_picker": {
+          "type": "variant_picker",
+          "settings": {
+            "hide_sold_out_variants": false,
+            "selector_mode": "block",
+            "color_mode": "variant_image",
+            "size_chart_page": ""
+          }
+        },
+        "quantity_selector": {
+          "type": "quantity_selector",
+          "settings": {
+          }
+        },
+        "12735dc9-3907-4582-bc82-4d993f4fc873": {
+          "type": "buy_buttons",
+          "settings": {
+            "show_payment_button": false,
+            "atc_button_background": "#398e82",
+            "atc_button_text_color": "#fcfcfc",
+            "buy_now_button_background": "rgba(0,0,0,0)",
+            "buy_now_button_text_color": "rgba(0,0,0,0)"
+          }
+        },
+        "f7a27e8b-2acb-47a8-b550-df556f961b4c": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<br>"
+          }
+        },
+        "e9a1324d-cd34-4057-bdfd-da6a338cdd55": {
+          "type": "usp_icons",
+          "settings": {
+            "icon": "picto-return-box",
+            "custom_icon_width": 50,
+            "content": "<p>Altid 30 dages fuld returret<\/p>"
+          }
+        },
+        "38a65de0-7ad2-4f39-bbf0-91f5c2d8998d": {
+          "type": "usp_icons",
+          "settings": {
+            "icon": "picto-fast-delivery",
+            "custom_icon_width": 50,
+            "content": "<p>Hurtig 1-2 dages levering<\/p>"
+          }
+        },
+        "f01fc0df-89a2-4754-8dd8-7826438720c7": {
+          "type": "usp_icons",
+          "settings": {
+            "icon": "picto-like",
+            "custom_icon_width": 50,
+            "content": "<p>Gratis levering ved køb over 399 kr.<\/p>"
+          }
+        },
+        "9bc733f1-eaa9-4aeb-8e4b-6d0b7edf7a4f": {
+          "type": "usp_icons",
+          "settings": {
+            "icon": "picto-customer-support",
+            "custom_icon_width": 50,
+            "content": "<p>100% tilfredshedsgaranti<\/p>"
+          }
+        },
+        "d6614223-290e-4b02-a883-f68bf72382e3": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<br>"
+          }
+        },
+        "f537fb45-e7a4-44cd-aef5-ca0f296600aa": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/dk_payment_methods_ny.jpg",
+            "image_alignment": "center",
+            "image_width": 350
+          }
+        }
+      },
+      "block_order": [
+        "3949e64b-3ef3-462f-8cb5-9cfb151811cd",
+        "a8a3f231-8a84-4354-a9fd-4d9059951169",
+        "ae6eb174-aa0c-4da3-bb2a-00c9fc61ff9b",
+        "variant_picker",
+        "quantity_selector",
+        "12735dc9-3907-4582-bc82-4d993f4fc873",
+        "f7a27e8b-2acb-47a8-b550-df556f961b4c",
+        "e9a1324d-cd34-4057-bdfd-da6a338cdd55",
+        "38a65de0-7ad2-4f39-bbf0-91f5c2d8998d",
+        "f01fc0df-89a2-4754-8dd8-7826438720c7",
+        "9bc733f1-eaa9-4aeb-8e4b-6d0b7edf7a4f",
+        "d6614223-290e-4b02-a883-f68bf72382e3",
+        "f537fb45-e7a4-44cd-aef5-ca0f296600aa"
+      ],
+      "settings": {
+        "show_vendor": false,
+        "show_sku": false,
+        "show_taxes_included": true,
+        "show_product_rating": false,
+        "show_sticky_add_to_cart": false,
+        "show_share_buttons": false,
+        "help_page": "faq",
+        "enable_video_autoplay": true,
+        "enable_video_looping": true,
+        "enable_image_zoom": false,
+        "show_thumbnails_on_mobile": true,
+        "desktop_thumbnails_position": "left",
+        "transition_effect": "slide",
+        "product_counter_text": "<p>Vi pakker din ordre om:<\/p>",
+        "show_product_counter": true,
+        "show_product_trustpilot_widget": false
+      }
+    },
+    "product-content": {
+      "type": "product-content",
+      "blocks": {
+        "description": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "145099a8-56fc-4928-9ff1-a0b55addb0c8": {
+          "type": "content",
+          "settings": {
+            "title": "Materialer",
+            "content": "<p>Fremstillet af bomuldsblanding med stretch (94 % bomuldsstretch, 6 % spandex) for ekstra komfort. Blød elastik i taljen med AJR-logo.<\/p>",
+            "page": ""
+          }
+        },
+        "1eaf983b-1f4a-4669-ad70-071ab3e618c8": {
+          "type": "content",
+          "settings": {
+            "title": "Størrelsesguide",
+            "content": "",
+            "page": ""
+          }
+        },
+        "6a6d631c-d930-4476-987c-345e048e409c": {
+          "type": "content",
+          "settings": {
+            "title": "Vaskeanvisninger",
+            "content": "<p>- Vask sammen med mørkt tøj<br\/>- Skånsom vask, max. 40 °C.<br\/>- Tørretumbling anbefales ikke<br\/>- Stryg ved lav temperatur<br\/><\/p>",
+            "page": ""
+          }
+        },
+        "133b0265-f52d-42d9-b1c6-a1a24613bc29": {
+          "type": "content",
+          "settings": {
+            "title": "Levering",
+            "content": "<p>Hos AJRcollection får du altid gratis levering. Standard leveringstid er 1-2 hverdage. <\/p>",
+            "page": ""
+          }
+        }
+      },
+      "block_order": [
+        "description",
+        "145099a8-56fc-4928-9ff1-a0b55addb0c8",
+        "1eaf983b-1f4a-4669-ad70-071ab3e618c8",
+        "6a6d631c-d930-4476-987c-345e048e409c",
+        "133b0265-f52d-42d9-b1c6-a1a24613bc29"
+      ],
+      "settings": {
+      }
+    },
+    "6c6901df-cb46-40b6-a9c0-0673d0dc2942": {
+      "type": "custom-html",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "html": "<!-- TrustBox widget - Slider -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"54ad5defc6454f065c28af8b\" data-businessunit-id=\"541889ee00006400057a5d7f\" data-style-height=\"240px\" data-style-width=\"100%\" data-theme=\"light\" data-stars=\"5\" data-review-languages=\"da\">\n  <a href=\"https:\/\/dk.trustpilot.com\/review\/www.anodyne.dk\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->",
+        "add_vertical_spacing": false,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "settings": {
+        "subheading": "",
+        "title": "Andre har også købt",
+        "recommendations_count": 4,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "167567262859be62b8": {
+      "type": "apps",
+      "disabled": true,
+      "settings": {
+        "include_horizontal_margins": true,
+        "include_vertical_margins": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "product-content",
+    "6c6901df-cb46-40b6-a9c0-0673d0dc2942",
+    "product-recommendations",
+    "167567262859be62b8"
+  ]
+}
