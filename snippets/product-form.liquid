@@ -319,7 +319,7 @@
       ----------------------------------------------------------------------------------------------------------------
       {%- endcomment -%}
       {%- when 'short-description' -%}
-      {% if block.settings.short-description != blank %}
+      {% if block.settings.show_short_description %}
         <div class="product-form__text" {{ block.shopify_attributes }}>
           {%- if product.metafields.custom.top_description != blank -%}
             <div class="product__top__description">
@@ -327,6 +327,16 @@
             </div>
           {%- endif -%}
         </div>
+      {%- endif -%}
+
+      {%- comment -%}
+      ----------------------------------------------------------------------------------------------------------------
+      PRODUCT QUANTITY DISCTOUNTS FROM METAFIELD
+      ----------------------------------------------------------------------------------------------------------------
+      {%- endcomment -%}
+      {%- when 'quantity_discounts' -%}
+      {% if block.settings.show_quantity_discounts %}
+        {{ pages[product.metafields.qbs.quantity_discounts_to_product].content }}
       {%- endif -%}
 
       {%- comment -%}
@@ -401,13 +411,13 @@
           <span class="product-form__quantity-label">{{ 'product.form.quantity' | t }}:</span>
 
           <quantity-selector class="quantity-selector">
-            <button type="button" class="quantity-selector__button">
+            <button type="button" class="quantity-selector__button qty__minus">
               <span class="visually-hidden">{{ 'cart.general.decrease_quantity' | t }}</span>
               {%- render 'icon' with 'minus-big' -%}
             </button>
 
             <input
-              type="text"
+              type="number"
               form="{{ product_form_id }}"
               is="input-number"
               class="quantity-selector__input"
@@ -419,7 +429,7 @@
               size="2"
               aria-label="{{ 'product.form.quantity' | t | escape }}">
 
-            <button type="button" class="quantity-selector__button">
+            <button type="button" class="quantity-selector__button qty__plus">
               <span class="visually-hidden">{{ 'cart.general.increase_quantity' | t }}</span>
               {%- render 'icon' with 'plus-big' -%}
             </button>

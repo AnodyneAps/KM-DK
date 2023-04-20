@@ -311,6 +311,9 @@
         "name": "Color Links",
         "settings": [
           {
+            "type": "paragraph",
+            "content": "Color links are color thumbnails using metafield area under each product. Want to edit color or add another one please go to products and then to metafields."
+          }, {
             "type": "checkbox",
             "id": "show_colors",
             "label": "Show product color selection",
@@ -389,9 +392,13 @@
         "name": "Short description",
         "settings": [
           {
-            "type": "richtext",
-            "id": "short-description",
-            "label": "Product short description - taken for custom metafield content"
+            "type": "paragraph",
+            "content": "Short discription on top of each product, the metafield is used to collect each product description. To edit description content please go to products and then metafield top description."
+          }, {
+            "type": "checkbox",
+            "id": "show_short_description",
+            "label": "Show Product short description on top",
+            "default": true
           }
         ]
       }, {
@@ -474,6 +481,20 @@
             "id": "liquid",
             "label": "Liquid",
             "info": "Add app snippets or other Liquid code to create advanced customizations."
+          }
+        ]
+      }, {
+        "type": "quantity_discounts",
+        "name": "Quantity discounts",
+        "settings": [
+          {
+            "type": "paragraph",
+            "content": "Line item quantity discounts are used to provide extra items for less value."
+          }, {
+            "type": "checkbox",
+            "id": "show_quantity_discounts",
+            "label": "Show product quantity discounts on selected products",
+            "default": false
           }
         ]
       }, {
@@ -753,12 +774,6 @@
         "id": "enable_video_looping",
         "label": "Enable video looping",
         "default": false
-      }, {
-        "type": "checkbox",
-        "id": "enable_image_zoom",
-        "label": "Enable image zoom",
-        "info": "Zoom does not show video nor 3D models.",
-        "default": true
       }, {
         "type": "checkbox",
         "id": "show_thumbnails_on_mobile",

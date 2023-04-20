@@ -6,13 +6,13 @@
         "a8a3f231-8a84-4354-a9fd-4d9059951169": {
           "type": "liquid",
           "settings": {
-            "liquid": "<!-- TrustBox widget - Micro Star -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"5419b732fbfb950b10de65e5\" data-businessunit-id=\"541889ee00006400057a5d7f\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"light\" style=\"background-color: #f7f7f7; padding:12px 0 8px\">\n  <a href=\"https:\/\/dk.trustpilot.com\/review\/www.anodyne.dk\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->"
+            "liquid": "<!-- TrustBox widget - Micro Star -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"5419b732fbfb950b10de65e5\" data-businessunit-id=\"541889ee00006400057a5d7f\" data-style-height=\"24px\" data-style-width=\"100%\" data-theme=\"light\" style=\"background-color: #ffffff; padding:12px 0 8px\">\n  <a href=\"https:\/\/dk.trustpilot.com\/review\/www.anodyne.dk\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->"
           }
         },
         "00302c62-cfad-4969-982d-ecc6bafa935d": {
           "type": "short-description",
           "settings": {
-            "short-description": "<p>Product short description - taken for custom metafield content<\/p>"
+            "show_short_description": true
           }
         },
         "ae6eb174-aa0c-4da3-bb2a-00c9fc61ff9b": {
@@ -30,9 +30,21 @@
             "size_chart_page": ""
           }
         },
+        "c51fca4a-4bf0-4c80-b3ba-6208b33699c4": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<a href=\"#read-more\"><strong><u>Tjek størrelsesguiden<\/u><\/strong><\/a>"
+          }
+        },
         "quantity_selector": {
           "type": "quantity_selector",
           "settings": {
+          }
+        },
+        "7d730f1e-03a8-4b58-8b66-855e35aabc99": {
+          "type": "quantity_discounts",
+          "settings": {
+            "show_quantity_discounts": true
           }
         },
         "12735dc9-3907-4582-bc82-4d993f4fc873": {
@@ -60,7 +72,7 @@
             "icon": "picto-fast-delivery",
             "custom_icon": "shopify:\/\/shop_images\/delivery.png",
             "custom_icon_width": 40,
-            "content": "<p>90% leveret indenfor 24 timer<\/p>"
+            "content": "<p>1-2 dages hurtig levering<\/p>"
           }
         },
         "f01fc0df-89a2-4754-8dd8-7826438720c7": {
@@ -94,14 +106,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/dk_payment_methods_ny.jpg",
             "image_alignment": "center",
-            "image_width": 230
-          }
-        },
-        "c51fca4a-4bf0-4c80-b3ba-6208b33699c4": {
-          "type": "liquid",
-          "disabled": true,
-          "settings": {
-            "liquid": "<br>"
+            "image_width": 500
           }
         }
       },
@@ -110,15 +115,16 @@
         "00302c62-cfad-4969-982d-ecc6bafa935d",
         "ae6eb174-aa0c-4da3-bb2a-00c9fc61ff9b",
         "variant_picker",
+        "c51fca4a-4bf0-4c80-b3ba-6208b33699c4",
         "quantity_selector",
+        "7d730f1e-03a8-4b58-8b66-855e35aabc99",
         "12735dc9-3907-4582-bc82-4d993f4fc873",
         "e9a1324d-cd34-4057-bdfd-da6a338cdd55",
         "38a65de0-7ad2-4f39-bbf0-91f5c2d8998d",
         "f01fc0df-89a2-4754-8dd8-7826438720c7",
         "9bc733f1-eaa9-4aeb-8e4b-6d0b7edf7a4f",
         "3949e64b-3ef3-462f-8cb5-9cfb151811cd",
-        "f537fb45-e7a4-44cd-aef5-ca0f296600aa",
-        "c51fca4a-4bf0-4c80-b3ba-6208b33699c4"
+        "f537fb45-e7a4-44cd-aef5-ca0f296600aa"
       ],
       "settings": {
         "show_vendor": false,
@@ -171,6 +177,14 @@
             "page": "registreringer"
           }
         },
+        "36823c84-927f-45eb-be9f-067bdc376163": {
+          "type": "content",
+          "settings": {
+            "title": "Det siger kunderne",
+            "content": "",
+            "page": "anodyne-anmeldelser"
+          }
+        },
         "995a2072-180d-4c51-a603-208dc03f3bb4": {
           "type": "liquid",
           "settings": {
@@ -184,6 +198,7 @@
         "145099a8-56fc-4928-9ff1-a0b55addb0c8",
         "6a6d631c-d930-4476-987c-345e048e409c",
         "133b0265-f52d-42d9-b1c6-a1a24613bc29",
+        "36823c84-927f-45eb-be9f-067bdc376163",
         "995a2072-180d-4c51-a603-208dc03f3bb4"
       ],
       "settings": {

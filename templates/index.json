@@ -10,8 +10,8 @@
             "mobile_image": "shopify:\/\/shop_images\/anodyne-new-mobile_cover.jpg",
             "text_position": "middle_center",
             "subheading": "",
-            "title": "Få en bedre kropsholdning med Anodyne®",
-            "subtitle": "<h4>Prøv den originale og patenterede Posture Shirt™. Flere end 150.000 tilfredse kunder i Danmark<\/h4>",
+            "title": "Få en bedre kropsholdning med Anodyne® og reducer smerter og spændinger",
+            "subtitle": "",
             "button_1_text": "Udforsk nu",
             "button_1_link": "shopify:\/\/collections",
             "button_2_text": "",
@@ -20,7 +20,7 @@
             "button_background": "#398e82",
             "button_text_color": "#ffffff",
             "overlay_color": "#454545",
-            "overlay_opacity": 30
+            "overlay_opacity": 20
           }
         }
       },
@@ -451,8 +451,8 @@
     "5a719341-2b15-4bb3-b311-938861636d03": {
       "type": "video",
       "settings": {
-        "subheading": "Unik og patenteret teknologi - inspireret af kinesio taping",
-        "title": "Fra kinesiotape til tøj",
+        "subheading": "Fra kinesiotape til tøj med unik teknologi",
+        "title": "",
         "video": "shopify:\/\/files\/videos\/anodyne_cover_video.mp4",
         "video_url": "",
         "background_type": "full_width",
