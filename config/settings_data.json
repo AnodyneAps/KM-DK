@@ -45,9 +45,10 @@
     "cart_icon": "shopping_cart",
     "cart_show_free_shipping_threshold": true,
     "cart_free_shipping_threshold": "399",
-    "social_facebook": "https:\/\/www.facebook.com\/Ajrcollectionn",
-    "social_instagram": "https:\/\/www.instagram.com\/ajr.officiel\/",
-    "favicon": "shopify:\/\/shop_images\/favicon-96x96.png",
+    "social_facebook": "https:\/\/www.facebook.com\/anodyne.dk",
+    "social_instagram": "https:\/\/www.instagram.com\/anodyne.dk",
+    "social_youtube": "https:\/\/www.youtube.com\/channel\/UCFLDlWEPVUrvsuNjVt6sXJg",
+    "favicon": "shopify:\/\/shop_images\/Favicon.png",
     "checkout_logo_image": "shopify:\/\/shop_images\/anodyne_logo_new.png",
     "checkout_sidebar_background_color": "#f5f5f5",
     "checkout_accent_color": "#39708e",
@@ -89,8 +90,8 @@
         "settings": {
           "enable_sticky_header": false,
           "logo": "shopify:\/\/shop_images\/anodyne_logo_new_white.png",
-          "logo_max_width": 180,
-          "mobile_logo_max_width": 120,
+          "logo_max_width": 140,
+          "mobile_logo_max_width": 110,
           "navigation_menu": "main-menu",
           "sidebar_navigation_menu": "",
           "header_layout": "logo_left_navigation_center",
@@ -128,7 +129,7 @@
             "type": "text",
             "settings": {
               "title": "Kontakt",
-              "content": "<p>Har du generelle spørgsmål til valg<br\/> af produkter eller andet? Så kontakt os endelig. Vores søde kolleger sidder klar til at hjælpe dig.<strong><br\/><br\/>E-mail:<\/strong> info@anodyne.dk<br\/><strong>Telefon:<\/strong> 5389 0017<br\/><\/p><p><strong>Åbningstider<br\/>Man - tors<\/strong>: 10:00 - 15:00<br\/><strong>Fre:<\/strong> 10:00 - 14:00<\/p>"
+              "content": "<p>Har du generelle spørgsmål til valg af produkter eller andet? Så kontakt os endelig. Vores søde kolleger sidder klar til at hjælpe dig.<strong><br\/><br\/>E-mail:<\/strong> info@anodyne.dk<br\/><strong>Telefon:<\/strong> 5389 0017<br\/><\/p><p><strong>Åbningstider<br\/>Man - tors<\/strong>: 10:00 - 15:00<br\/><strong>Fre:<\/strong> 10:00 - 14:00<\/p>"
             }
           },
           "social_media": {
@@ -273,7 +274,7 @@
         "type": "shopify:\/\/apps\/drip-email-marketing\/blocks\/drip_shopify_snippet\/0c4de56d-b2fa-4621-acea-6293bc16aba8",
         "disabled": false,
         "settings": {
-          "account_param": "3287923"
+          "account_param": "9047146"
         }
       }
     }

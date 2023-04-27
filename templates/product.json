@@ -133,10 +133,9 @@
         "show_product_rating": false,
         "show_sticky_add_to_cart": false,
         "show_share_buttons": false,
-        "help_page": "faq",
+        "help_page": "kontakt",
         "enable_video_autoplay": true,
         "enable_video_looping": true,
-        "enable_image_zoom": false,
         "show_thumbnails_on_mobile": true,
         "desktop_thumbnails_position": "left",
         "transition_effect": "slide",
@@ -229,7 +228,7 @@
             "link_url": "",
             "link_style": "link",
             "text_position": "middle_center",
-            "background": "#f7f8fd",
+            "background": "#f7f7f7",
             "text_color": "#1e316a",
             "button_background": "#ffffff",
             "button_text_color": "#1e316a"
@@ -245,7 +244,7 @@
             "link_url": "",
             "link_style": "link",
             "text_position": "middle_center",
-            "background": "#f7f8fd",
+            "background": "#f7f7f7",
             "text_color": "#1e316a",
             "button_background": "#ffffff",
             "button_text_color": "#1e316a"
@@ -261,7 +260,7 @@
             "link_url": "",
             "link_style": "link",
             "text_position": "middle_center",
-            "background": "#f7f8fd",
+            "background": "#f7f7f7",
             "text_color": "#1e316a",
             "button_background": "#ffffff",
             "button_text_color": "#1e316a"
@@ -277,7 +276,7 @@
             "link_url": "",
             "link_style": "link",
             "text_position": "middle_center",
-            "background": "#f7f8fd",
+            "background": "#f7f7f7",
             "text_color": "#1e316a",
             "button_background": "#ffffff",
             "button_text_color": "#1e316a"
@@ -293,7 +292,7 @@
             "link_url": "",
             "link_style": "link",
             "text_position": "middle_center",
-            "background": "#f7f8fd",
+            "background": "#f7f7f7",
             "text_color": "#1e316a",
             "button_background": "#ffffff",
             "button_text_color": "#1e316a"
@@ -309,7 +308,7 @@
             "link_url": "",
             "link_style": "link",
             "text_position": "middle_center",
-            "background": "#f7f8fd",
+            "background": "#f7f7f7",
             "text_color": "#1e316a",
             "button_background": "#ffffff",
             "button_text_color": "#1e316a"

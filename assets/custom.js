@@ -1,4 +1,4 @@
-   (function () {
+ (function () {
 			// product counter scripts 
 			const counter = document.getElementById("product__counter");
 			if(counter){
@@ -39,63 +39,4 @@
 					counter.innerHTML = "<div class='inner'>"+hours+"<span class='dots'>:</span></div><div class='inner'>"+minutes+"<span class='dots'>:</span></div><div class='inner'>"+seconds+"</div>";
 			}
 			}
-
-
-			//quantity selector
-			const qtyPlus = document.querySelector(".quantity-selector__button.qty__plus")
-			const qtyMinus = document.querySelector(".quantity-selector__button.qty__minus")
-			const qtyBreaksBullets = document.querySelectorAll(".qb__item");
-			qtyBreaksBullets.forEach((bullet, index) => bullet.addEventListener("DOMContentLoaded", addClassToItems(bullet, index)));
-
-			qtyPlus.addEventListener("click", ()=> {
-					qtyBreaksBullets.forEach((bullet, index) =>{
-							var qtyInputValue = document.querySelector(".quantity-selector__input").value;
-							if(`bulletNum__${qtyInputValue}` == `bulletNum__${index}`){
-								bullet.classList.add("bullet");
-							} 
-							else {
-							bullet.classList.remove("bullet");
-							}
-					})
-				});
-
-			qtyMinus.addEventListener("click", () =>{
-					qtyBreaksBullets.forEach((bullet, index) =>{
-								var qtyInputValue = document.querySelector(".quantity-selector__input").value -2;
-								if(`bulletNum__${qtyInputValue}` == `bulletNum__${index}`){
-									bullet.classList.add("bullet");
-								} 
-								else {
-								bullet.classList.remove("bullet");
-							}
-					})
-			})
-
-			function addClassToItems(b, i){
-			b.classList.add(`bulletNum__${i}`);
-			}
-
-			function selectBullet() {
-				removeBullet();
-
-				this.classList.add("bullet");
-				if(this.classList.contains("bulletNum__1")){
-				document.querySelector(".quantity-selector__input").value = +2;
-				} else if( this.classList.contains("bulletNum__2")){
-					document.querySelector(".quantity-selector__input").value = +3;
-				}else {
-				document.querySelector(".quantity-selector__input").value = 1;
-				}
-			}
-
-			// Remove show class from all content items
-			function removeBullet() {
-			qtyBreaksBullets.forEach(item => {
-					item.classList.remove("bullet");
-				});
-			}
-			// Listen for tab item click
-			qtyBreaksBullets.forEach((item, index) => {
-				item.addEventListener('click', selectBullet);
-			});
 })();

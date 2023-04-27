@@ -451,15 +451,15 @@
     "5a719341-2b15-4bb3-b311-938861636d03": {
       "type": "video",
       "settings": {
-        "subheading": "Fra kinesiotape til tøj med unik teknologi",
-        "title": "",
-        "video": "shopify:\/\/files\/videos\/anodyne_cover_video.mp4",
+        "subheading": "",
+        "title": "Fra kinesiotape til tøj",
+        "video": "shopify:\/\/files\/videos\/anodyne_frontpage_movie.mp4",
         "video_url": "",
-        "background_type": "full_width",
-        "video_size": "medium",
+        "background_type": "boxed",
+        "video_size": "auto",
         "autoplay": true,
         "show_video_controls": false,
-        "background": "#f7f7f7",
+        "background": "rgba(0,0,0,0)",
         "text_color": "rgba(0,0,0,0)"
       }
     },

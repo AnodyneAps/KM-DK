@@ -1,0 +1,875 @@
+{
+  "store": {
+    "plan": "premium",
+    "theme": "Kenneth new Munir theme",
+    "primaryLocale": "da",
+    "adminMode": false
+  },
+  "tsPublished": 1682419460,
+  "declaration": {
+    "showPurpose": false,
+    "showProvider": false,
+    "showDateGenerated": true
+  },
+  "language": {
+    "languageMode": "Single",
+    "fallbackLanguage": "da",
+    "languageDetection": "browser",
+    "languagesSupported": [
+
+    ]
+  },
+  "texts": {
+    "managed": {
+      "headerText": {
+        "da": "Vi respekterer dit privatliv"
+      },
+      "consentText": {
+        "da": "Dette websted bruger cookies for at sikre, at du får den bedste oplevelse. Cookies er nødvendige for at få webstedet til at fungere optimalt."
+      },
+      "dismissButtonText": {
+        "da": "Okay"
+      },
+      "linkText": {
+        "da": "Læs mere"
+      },
+      "imprintText": {
+        "da": "Aftryk"
+      },
+      "preferencesButtonText": {
+        "da": "Præferencer"
+      },
+      "allowButtonText": {
+        "da": "Accepter"
+      },
+      "denyButtonText": {
+        "da": "Afslå"
+      },
+      "leaveSiteButtonText": {
+        "da": "Forlad dette websted"
+      },
+      "cookiePolicyText": {
+        "da": "Cookiepolitik"
+      },
+      "preferencesPopupTitleText": {
+        "da": "Administrer samtykkeindstillinger"
+      },
+      "preferencesPopupIntroText": {
+        "da": "Vi bruger cookies til at optimere webstedets funktionalitet, analysere ydelsen og give dig en personlig oplevelse. Nogle cookies er afgørende for at få hjemmesiden til at fungere og fungere korrekt. Disse cookies kan ikke deaktiveres. I dette vindue kan du styre din præference for cookies."
+      },
+      "preferencesPopupCloseButtonText": {
+        "da": "Tæt"
+      },
+      "preferencesPopupAcceptAllButtonText": {
+        "da": "Accepter alle"
+      },
+      "preferencesPopupRejectAllButtonText": {
+        "da": "Afvis alle"
+      },
+      "preferencesPopupSaveButtonText": {
+        "da": "Gem præferencer"
+      },
+      "accessSectionTitleText": {
+        "da": "Dataportabilitet"
+      },
+      "accessSectionParagraphText": {
+        "da": "Du har til enhver tid ret til at få adgang til dine data."
+      },
+      "rectificationSectionTitleText": {
+        "da": "Rettelse af data"
+      },
+      "rectificationSectionParagraphText": {
+        "da": "Du har ret til at anmode om, at dine data opdateres, når du synes, det er passende."
+      },
+      "erasureSectionTitleText": {
+        "da": "Ret til at blive glemt"
+      },
+      "erasureSectionParagraphText": {
+        "da": "Du har ret til at bede alle dine data om at blive slettet. Derefter har du ikke længere adgang til din konto."
+      }
+    },
+    "categories": {
+      "strictlyNecessaryCookiesTitleText": {
+        "da": "Strengt nødvendige cookies"
+      },
+      "functionalityCookiesTitleText": {
+        "da": "Funktionelle cookies"
+      },
+      "performanceCookiesTitleText": {
+        "da": "Ydelsescookies"
+      },
+      "targetingCookiesTitleText": {
+        "da": "Målretning af cookies"
+      },
+      "unclassifiedCookiesTitleText": {
+        "da": "Uklassificerede cookies"
+      },
+      "strictlyNecessaryCookiesDescriptionText": {
+        "da": "Disse cookies er afgørende for, at du kan flytte rundt på webstedet og bruge dets funktioner, f.eks. Adgang til sikre områder på webstedet. Websitet kan ikke fungere korrekt uden disse cookies."
+      },
+      "functionalityCookiesDescriptionText": {
+        "da": "Disse cookies gør det muligt for webstedet at levere forbedret funktionalitet og personalisering. De kan angives af os eller af tredjepartsudbydere, hvis tjenester vi har tilføjet til vores sider. Hvis du ikke tillader disse cookies, fungerer nogle eller alle disse tjenester muligvis ikke korrekt."
+      },
+      "performanceCookiesDescriptionText": {
+        "da": "Disse cookies gør det muligt for os at overvåge og forbedre vores websteds ydeevne. For eksempel giver de os mulighed for at tælle besøg, identificere trafikkilder og se, hvilke dele af webstedet der er mest populære."
+      },
+      "targetingCookiesDescriptionText": {
+        "da": "Disse cookies kan blive sat via vores websted af vores annoncepartnere. De kan bruges af disse virksomheder til at opbygge en profil af dine interesser og vise dig relevante annoncer på andre websteder. De gemmer ikke direkte personlige oplysninger, men er baseret på entydigt at identificere din browser og internet -enhed. Hvis du ikke tillader disse cookies, vil du opleve mindre målrettet annoncering."
+      },
+      "unclassifiedCookiesDescriptionText": {
+        "da": "Uklassificerede cookies er cookies, som vi er i gang med at klassificere sammen med udbyderne af individuelle cookies."
+      }
+    },
+    "auto": {
+      "declName": {
+        "da": "Navn"
+      },
+      "declPath": {
+        "da": "Sti"
+      },
+      "declType": {
+        "da": "Type"
+      },
+      "declDomain": {
+        "da": "Domæne"
+      },
+      "declPurpose": {
+        "da": "Formål"
+      },
+      "declProvider": {
+        "da": "Udbyder"
+      },
+      "declRetention": {
+        "da": "Tilbageholdelse"
+      },
+      "declFirstParty": {
+        "da": "First-party"
+      },
+      "declThirdParty": {
+        "da": "Tredje part"
+      },
+      "cookiesDetailsText": {
+        "da": "Cookies detaljer"
+      },
+      "preferencesPopupAlwaysAllowedText": {
+        "da": "Altid tilladt"
+      },
+      "submitButton": {
+        "da": "Indsend"
+      },
+      "submittingButton": {
+        "da": "Indsender ..."
+      },
+      "cancelButton": {
+        "da": "Afbestille"
+      },
+      "guestsSupportInfoText": {
+        "da": "Log ind med din kundekonto for at fortsætte."
+      },
+      "guestsSupportEmailPlaceholder": {
+        "da": "Email adresse"
+      },
+      "guestsSupportEmailValidationError": {
+        "da": "E -mail er ikke gyldig"
+      },
+      "guestsSupportEmailSuccessTitle": {
+        "da": "Tak for din anmodning"
+      },
+      "guestsSupportEmailFailureTitle": {
+        "da": "Der opstod et problem"
+      },
+      "guestsSupportEmailSuccessMessage": {
+        "da": "Hvis du er registreret som kunde i denne butik, modtager du snart en e -mail med instruktioner om, hvordan du fortsætter."
+      },
+      "guestsSupportEmailFailureMessage": {
+        "da": "Din anmodning blev ikke sendt. Prøv igen, og kontakt problemet, hvis problemet fortsætter, for at få hjælp."
+      },
+      "confirmationSuccessTitle": {
+        "da": "Din anmodning er bekræftet"
+      },
+      "confirmationFailureTitle": {
+        "da": "Der opstod et problem"
+      },
+      "confirmationSuccessMessage": {
+        "da": "Vi vender snart tilbage til dig angående din anmodning."
+      },
+      "confirmationFailureMessage": {
+        "da": "Din anmodning blev ikke bekræftet. Prøv igen, og kontakt problemet, hvis problemet fortsætter, for at få hjælp"
+      },
+      "consentSectionTitleText": {
+        "da": "Dit cookie-samtykke"
+      },
+      "consentSectionNoConsentText": {
+        "da": "Du har ikke givet samtykke til cookiepolitikken på dette websted."
+      },
+      "consentSectionConsentedText": {
+        "da": "Du har givet samtykke til cookiepolitikken på dette websted den"
+      },
+      "consentStatus": {
+        "da": "Samtykke præference"
+      },
+      "consentDate": {
+        "da": "Dato for samtykke"
+      },
+      "consentId": {
+        "da": "Samtykke-id"
+      },
+      "consentSectionChangeConsentActionText": {
+        "da": "Skift samtykkepræference"
+      },
+      "accessSectionGDPRRequestsActionText": {
+        "da": "Anmodninger fra den registrerede"
+      },
+      "accessSectionAccountInfoActionText": {
+        "da": "Personlig data"
+      },
+      "accessSectionOrdersRecordsActionText": {
+        "da": "Ordre:% s"
+      },
+      "accessSectionDownloadReportActionText": {
+        "da": "Download alt"
+      },
+      "rectificationCommentPlaceholder": {
+        "da": "Beskriv, hvad du vil have opdateret"
+      },
+      "rectificationCommentValidationError": {
+        "da": "Kommentar er påkrævet"
+      },
+      "rectificationSectionEditAccountActionText": {
+        "da": "Anmod om en opdatering"
+      },
+      "erasureSectionRequestDeletionActionText": {
+        "da": "Anmod om sletning af personoplysninger"
+      }
+    }
+  },
+  "library": {
+    "previewMode": false,
+    "fadeInTimeout": 0,
+    "defaultBlocked": 7,
+    "showLink": true,
+    "showImprintLink": false,
+    "enabled": true,
+    "cookie": {
+      "name": "_pandectes_gdpr",
+      "expiryDays": 365,
+      "secure": true
+    },
+    "dismissOnScroll": false,
+    "dismissOnWindowClick": false,
+    "dismissOnTimeout": false,
+    "palette": {
+      "popup": {
+        "background": "#FFFFFF",
+        "backgroundForCalculations": {
+          "a": 1,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "text": "#000000"
+      },
+      "button": {
+        "background": "#000000",
+        "backgroundForCalculations": {
+          "a": 1,
+          "b": 0,
+          "g": 0,
+          "r": 0
+        },
+        "text": "#FFFFFF",
+        "textForCalculation": {
+          "a": 1,
+          "b": 255,
+          "g": 255,
+          "r": 255
+        },
+        "border": "transparent"
+      }
+    },
+    "content": {
+      "href": "https:\/\/anodyne-denmark.myshopify.com\/policies\/privacy-policy",
+      "imprintHref": "\/",
+      "close": "&#10005;",
+      "target": "",
+      "logo": ""
+    },
+    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-bottom-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
+    "compliance": {
+      "custom": "<div class=\"cc-compliance cc-highlight\">{{preferences}}{{allow}}<\/div>"
+    },
+    "type": "custom",
+    "layouts": {
+      "basic": "{{messagelink}}{{compliance}}"
+    },
+    "position": "bottom",
+    "theme": "block",
+    "revokable": false,
+    "animateRevokable": false,
+    "revokableReset": false,
+    "revokableLogoUrl": "https:\/\/cdn.shopify.com\/s\/files\/1\/0596\/7842\/5237\/t\/81\/assets\/pandectes-reopen-logo.png?v=1681994957",
+    "revokablePlacement": "bottom-left",
+    "revokableMarginHorizontal": 15,
+    "revokableMarginVertical": 15,
+    "static": false,
+    "autoAttach": true,
+    "hasTransition": true,
+    "blacklistPage": [
+      ""
+    ]
+  },
+  "geolocation": {
+    "brOnly": false,
+    "caOnly": false,
+    "euOnly": false,
+    "jpOnly": false,
+    "thOnly": false,
+    "canadaOnly": false,
+    "globalVisibility": true
+  },
+  "dsr": {
+    "guestsSupport": false,
+    "accessSectionDownloadReportAuto": false
+  },
+  "banner": {
+    "resetTs": 1681112743,
+    "extraCss": "        .cc-banner-logo {max-width: 24em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 24em!important;width: 24em!important;}}    .cc-message, .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;}    .cc-window{z-index: 2147483647;font-family: inherit;}    .cc-header{font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #FFFFFF;color:#000000;}    .pd-cp-btn{background-color:#000000;color:#FFFFFF!important;}    input + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(0, 0, 0, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(0, 0, 0, 1)}    .pd-cp-ui-close{color:#000000;}    .pd-cp-preferences-slider:before{background-color: #FFFFFF}    .pd-cp-title:before {border-color: #000000!important}    .pd-cp-preferences-slider{background-color:#000000}    .pd-cp-toggle{color:#000000!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #000000}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#000000!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
+    "customJavascript": null,
+    "showPoweredBy": false,
+    "isActive": true,
+    "implicitSavePreferences": true,
+    "cookieIcon": false,
+    "blockBots": false,
+    "showCookiesDetails": true,
+    "cookiesBlockedByDefault": "7",
+    "hasTransition": true,
+    "blockingPage": false,
+    "showOnlyLandingPage": false,
+    "leaveSiteUrl": "https:\/\/www.google.com",
+    "linkRespectStoreLang": false
+  },
+  "cookies": {
+    "0": [
+      {
+        "name": "secure_customer_sig",
+        "domain": "www.anodyne.dk",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "da": "Used in connection with customer login."
+        }
+      },
+      {
+        "name": "localization",
+        "domain": "www.anodyne.dk",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "da": "Shopify store localization"
+        }
+      },
+      {
+        "name": "keep_alive",
+        "domain": "www.anodyne.dk",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "purpose": {
+          "da": "Used in connection with buyer localization."
+        }
+      },
+      {
+        "name": "_secure_session_id",
+        "domain": "www.anodyne.dk",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "24 hour(s)",
+        "purpose": {
+          "da": "Used in connection with navigation through a storefront."
+        }
+      }
+    ],
+    "1": [
+
+    ],
+    "2": [
+      {
+        "name": "_s",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "purpose": {
+          "da": "Shopify analytics."
+        }
+      },
+      {
+        "name": "_y",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "da": "Shopify analytics."
+        }
+      },
+      {
+        "name": "_shopify_s",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "purpose": {
+          "da": "Shopify analytics."
+        }
+      },
+      {
+        "name": "_shopify_y",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "da": "Shopify analytics."
+        }
+      },
+      {
+        "name": "_shopify_sa_t",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "purpose": {
+          "da": "Shopify analytics relating to marketing & referrals."
+        }
+      },
+      {
+        "name": "_orig_referrer",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "14 day(s)",
+        "purpose": {
+          "da": "Tracks landing pages."
+        }
+      },
+      {
+        "name": "_ga_FZFPWTXDWN",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Google",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "da": "Cookie is set by Google Analytics with unknown functionality"
+        }
+      },
+      {
+        "name": "_shopify_sa_p",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "30 minute(s)",
+        "purpose": {
+          "da": "Shopify analytics relating to marketing & referrals."
+        }
+      },
+      {
+        "name": "_gid",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Google",
+        "firstParty": true,
+        "retention": "24 hour(s)",
+        "purpose": {
+          "da": "Cookie is placed by Google Analytics to count and track pageviews."
+        }
+      },
+      {
+        "name": "_ga",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Google",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "da": "Cookie is set by Google Analytics with unknown functionality"
+        }
+      },
+      {
+        "name": "_gat",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Google",
+        "firstParty": true,
+        "retention": "47 second(s)",
+        "purpose": {
+          "da": "Cookie is placed by Google Analytics to filter requests from bots."
+        }
+      },
+      {
+        "name": "_landing_page",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Shopify",
+        "firstParty": true,
+        "retention": "14 day(s)",
+        "purpose": {
+          "da": "Tracks landing pages."
+        }
+      }
+    ],
+    "4": [
+      {
+        "name": "_pin_unauth",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Pinterest",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "da": "Used to group actions for users who cannot be identified by Pinterest."
+        }
+      },
+      {
+        "name": "_gcl_au",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Google",
+        "firstParty": true,
+        "retention": "90 day(s)",
+        "purpose": {
+          "da": "Cookie is placed by Google Tag Manager to track conversions."
+        }
+      },
+      {
+        "name": "_scid",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Snapchat",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "da": "Used by Snapchat to help identify a visitor."
+        }
+      },
+      {
+        "name": "_fbp",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Facebook",
+        "firstParty": true,
+        "retention": "90 day(s)",
+        "purpose": {
+          "da": "Cookie is placed by Facebook to track visits across websites."
+        }
+      },
+      {
+        "name": "test_cookie",
+        "domain": ".doubleclick.net",
+        "path": "\/",
+        "provider": "Google",
+        "firstParty": true,
+        "retention": "15 minute(s)",
+        "purpose": {
+          "da": "To measure the visitors’ actions after they click through from an advert. Expires after each visit."
+        }
+      },
+      {
+        "name": "TapAd_DID",
+        "domain": ".tapad.com",
+        "path": "\/",
+        "provider": "Tapad",
+        "firstParty": true,
+        "retention": "60 day(s)",
+        "purpose": {
+          "da": "Used to determine what type of devices is used by a user."
+        }
+      },
+      {
+        "name": "TapAd_TS",
+        "domain": ".tapad.com",
+        "path": "\/",
+        "provider": "Tapad",
+        "firstParty": true,
+        "retention": "60 day(s)",
+        "purpose": {
+          "da": "Used to determine what type of devices is used by a user."
+        }
+      },
+      {
+        "name": "TapAd_3WAY_SYNCS",
+        "domain": ".tapad.com",
+        "path": "\/",
+        "provider": "Tapad",
+        "firstParty": true,
+        "retention": "60 day(s)",
+        "purpose": {
+          "da": "Used for data-synchronization with advertisement networks."
+        }
+      },
+      {
+        "name": "_sctr",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Snapchat",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "da": "Used by Snapchat to determine whether a third party tag will be called in Snap Ads Pixel."
+        }
+      },
+      {
+        "name": "IDE",
+        "domain": ".doubleclick.net",
+        "path": "\/",
+        "provider": "Google",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "da": "To measure the visitors’ actions after they click through from an advert. Expires after 1 year."
+        }
+      }
+    ],
+    "8": [
+      {
+        "name": "_ttp",
+        "domain": ".tiktok.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "da": ""
+        }
+      },
+      {
+        "name": "_drip_client_9047146",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "da": ""
+        }
+      },
+      {
+        "name": "_ttp",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "da": ""
+        }
+      },
+      {
+        "name": "_scsrid",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "da": ""
+        }
+      },
+      {
+        "name": "_tt_enable_cookie",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "da": ""
+        }
+      },
+      {
+        "name": "SNS",
+        "domain": "www.anodyne.dk",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "Session",
+        "purpose": {
+          "da": ""
+        }
+      },
+      {
+        "name": "_sn_a",
+        "domain": "www.anodyne.dk",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "da": ""
+        }
+      },
+      {
+        "name": "_sn_m",
+        "domain": "www.anodyne.dk",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "da": ""
+        }
+      },
+      {
+        "name": "_sn_n",
+        "domain": "www.anodyne.dk",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "da": ""
+        }
+      },
+      {
+        "name": "_scid_r",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "da": ""
+        }
+      },
+      {
+        "name": "_scsrid_r",
+        "domain": ".anodyne.dk",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "da": ""
+        }
+      },
+      {
+        "name": "sc_at",
+        "domain": ".snapchat.com",
+        "path": "\/",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "1 year(s)",
+        "purpose": {
+          "da": ""
+        }
+      },
+      {
+        "name": "X-AB",
+        "domain": "sc-static.net",
+        "path": "\/scevent.min.js",
+        "provider": "Unknown",
+        "firstParty": true,
+        "retention": "24 hour(s)",
+        "purpose": {
+          "da": ""
+        }
+      }
+    ]
+  },
+  "blocker": {
+    "isActive": true,
+    "googleConsentMode": {
+      "id": "",
+      "analyticsId": "",
+      "isActive": true,
+      "adStorageCategory": 4,
+      "analyticsStorageCategory": 2,
+      "personalizationStorageCategory": 1,
+      "functionalityStorageCategory": 1,
+      "customEvent": true,
+      "securityStorageCategory": 0,
+      "redactData": true,
+      "urlPassthrough": false
+    },
+    "facebookPixel": {
+      "id": "",
+      "isActive": false,
+      "ldu": false
+    },
+    "rakuten": {
+      "isActive": false,
+      "cmp": false,
+      "ccpa": false
+    },
+    "gpcIsActive": false,
+    "defaultBlocked": 7,
+    "patterns": {
+      "whiteList": [
+
+      ],
+      "blackList": {
+        "1": [
+          "sleeknote.com"
+        ],
+        "2": [
+
+        ],
+        "4": [
+          "tag.getdrip.com",
+          "sc-static.net"
+        ],
+        "8": [
+
+        ]
+      },
+      "iframesWhiteList": [
+
+      ],
+      "iframesBlackList": {
+        "1": [
+
+        ],
+        "2": [
+
+        ],
+        "4": [
+
+        ],
+        "8": [
+
+        ]
+      },
+      "beaconsWhiteList": [
+
+      ],
+      "beaconsBlackList": {
+        "1": [
+
+        ],
+        "2": [
+
+        ],
+        "4": [
+
+        ],
+        "8": [
+
+        ]
+      }
+    }
+  }
+}

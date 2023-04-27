@@ -2724,6 +2724,8 @@
   };
   window.customElements.define("quantity-selector", QuantitySelector);
 
+
+
   // js/custom-element/ui/input-number.js
   var InputNumber = class extends HTMLInputElement {
     connectedCallback() {
@@ -2763,6 +2765,47 @@
     }
   };
   window.customElements.define("input-number", InputNumber, { extends: "input" });
+
+  // js/custom-element/ui/quantity-discounts.js
+  var QuantityDiscounts = class extends CustomHTMLElement {
+    connectedCallback() {
+     var inputElement =  document.querySelector(".quantity-selector__input");
+      this.qbItems = this.querySelectorAll(".qb__item");
+      const qbItemsArr = Array.from(this.qbItems);
+      //add class bulletnums to items when page loaded
+      this.qbItems.forEach((bullet, index) => bullet.addEventListener("DOMContentLoaded", addClassToItems(bullet, index)));
+  
+          //add class bulletnums to items when page loaded - function
+          function addClassToItems(b, i){
+          b.classList.add(`bulletNum__${i}`);
+          }
+			// Remove show class from all content items
+			function removeBullet() {
+			qbItemsArr.forEach(item => {
+					item.classList.remove("bullet");
+				});
+			}
+
+          //Listen for tab item click
+          this.qbItems.forEach((item) => {
+            item.addEventListener('click', ()=>{
+		                  removeBullet();
+                      item.classList.add('bullet');
+                      if(item.classList.contains("bulletNum__0")){
+                      inputElement.quantity = 1;
+                      } else if( item.classList.contains("bulletNum__1")){
+                      inputElement.quantity =  2
+                      } else if( item.classList.contains("bulletNum__2")){
+                      inputElement.quantity =  3
+                      } else {
+                        inputElement.quantity = 1;
+                      }
+              });
+          });
+
+    }
+  };
+  window.customElements.define("quantity-discounts", QuantityDiscounts);
 
   // js/custom-element/section/announcement-bar/announcement-bar.js
   var AnnouncementBar = class extends CustomHTMLElement {
@@ -6334,6 +6377,7 @@
       }
     });
   })();
+
 })();
 /*!
 * focus-trap 6.7.1
