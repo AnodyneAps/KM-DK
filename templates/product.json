@@ -30,6 +30,13 @@
             "size_chart_page": ""
           }
         },
+        "2bfcd6d8-072b-4670-81af-828d2b71a4c0": {
+          "type": "inventory",
+          "disabled": true,
+          "settings": {
+            "low_inventory_threshold": 0
+          }
+        },
         "c51fca4a-4bf0-4c80-b3ba-6208b33699c4": {
           "type": "liquid",
           "settings": {
@@ -81,7 +88,7 @@
             "icon": "picto-like",
             "custom_icon": "shopify:\/\/shop_images\/free_delivery_d38fc524-a5e3-4768-904d-ef6febe8326d.png",
             "custom_icon_width": 40,
-            "content": "<p>Fri fragt ved køb over 399 kr<\/p>"
+            "content": "<p>Fri fragt ved køb over 399 kr. <\/p>"
           }
         },
         "9bc733f1-eaa9-4aeb-8e4b-6d0b7edf7a4f": {
@@ -115,6 +122,7 @@
         "00302c62-cfad-4969-982d-ecc6bafa935d",
         "ae6eb174-aa0c-4da3-bb2a-00c9fc61ff9b",
         "variant_picker",
+        "2bfcd6d8-072b-4670-81af-828d2b71a4c0",
         "c51fca4a-4bf0-4c80-b3ba-6208b33699c4",
         "quantity_selector",
         "7d730f1e-03a8-4b58-8b66-855e35aabc99",
@@ -133,7 +141,7 @@
         "show_product_rating": false,
         "show_sticky_add_to_cart": false,
         "show_share_buttons": false,
-        "help_page": "kontakt",
+        "help_page": "",
         "enable_video_autoplay": true,
         "enable_video_looping": true,
         "show_thumbnails_on_mobile": true,

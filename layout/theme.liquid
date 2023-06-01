@@ -142,9 +142,57 @@ all events, dependencies...) in the "custom.js" file, located in the Assets fold
       async></script>
     <!-- End TrustBox script -->
 
-
     {{ content_for_header }}
-  </head>
+  
+                      {% include 'bss-product-labels-configs' %}
+                          {% include 'scm-product-label-head' %}
+<!--Product-Label script. Don't modify or delete-->
+<script>
+    ;(function() {
+        var pushState = history.pushState;
+        var replaceState = history.replaceState;
+
+        history.pushState = function() {
+            pushState.apply(history, arguments);
+            window.dispatchEvent(new Event('pushstate'));
+            window.dispatchEvent(new Event('locationchange'));
+        };
+
+        history.replaceState = function() {
+            replaceState.apply(history, arguments);
+            window.dispatchEvent(new Event('replacestate'));
+            window.dispatchEvent(new Event('locationchange'));
+        };
+
+        window.addEventListener('popstate', function() {
+            window.dispatchEvent(new Event('locationchange'))
+        });
+    })();
+    window.addEventListener('locationchange', function(){
+        setTimeout(function(){
+            if (typeof SECOMAPP !== "undefined" && typeof SECOMAPP.pl !== "undefined") {
+                SECOMAPP.pl.labelCollections(true);
+                var queryString = window.location.search;
+                var urlParams = new URLSearchParams(queryString);
+                var variant = urlParams.get('variant');
+                SECOMAPP.pl.showLabel(variant );
+            }
+        },1000);
+    })
+    const checkDone = setInterval(function(){
+        if (document.readyState === "complete") {
+            clearInterval(checkDone)
+            setTimeout(function(){
+                if (typeof SECOMAPP !== "undefined" && typeof SECOMAPP.pl !== "undefined") {
+                    SECOMAPP.pl.labelCollections(true);
+                }
+            },1000);
+        }
+    }, 1500);
+</script>
+<!--Product-Label script. Don't modify or delete-->
+</head>
+                 
 
   {%- assign feature_classes = '' -%}
 
@@ -243,5 +291,8 @@ all events, dependencies...) in the "custom.js" file, located in the Assets fold
     {%- if request.page_type != 'gift_card' and request.page_type != 'password' -%}
       {%- section 'footer' -%}
     {%- endif -%}
-  </body>
+  {% if content_for_header contains 'product_label' %}{% include 'bss-product-label-js' %}{% include 'bss-label-style-css' %}{% include 'bss-product-label-fonts' %}{% endif %}
+<script type="text/javascript"> (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.defer=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document, 'https://anodyne.ladesk.com/scripts/track.js', function(e){ LiveAgent.createButton('6o9dt6l1', e); }); </script>
+<script type="text/javascript"> (function(d, src, c) { var t=d.scripts[d.scripts.length - 1],s=d.createElement('script');s.id='la_x2s6df8d';s.defer=true;s.src=src;s.onload=s.onreadystatechange=function(){var rs=this.readyState;if(rs&&(rs!='complete')&&(rs!='loaded')){return;}c(this);};t.parentElement.insertBefore(s,t.nextSibling);})(document, 'https://anodyne.ladesk.com/scripts/track.js', function(e){ LiveAgent.createButton('2ltw0gu6', e); }); </script>
+</body>
 </html>

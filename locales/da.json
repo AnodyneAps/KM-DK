@@ -85,7 +85,7 @@
       "title": "Kurv",
       "empty": "Din kurv er tom",
       "start_shopping": "Shop nu",
-      "free_shipping": "Hurtig levering til pakkeshop",
+      "free_shipping": "Gratis levering til pakkeshop",
       "free_shipping_remaining_html": "",
       "free": "",
       "no_more_stock": "",
@@ -152,12 +152,12 @@
       }
     },
     "product": {
-      "sold_out": "",
+      "sold_out": "Udsolgt",
       "discount_html": "Spar {{savings}}",
       "from_price_html": "",
       "add_to_cart": "Tilføj til kurv",
-      "add_to_cart_short": "+ Tilføj",
-      "quick_view": "Køb nu",
+      "add_to_cart_short": "Tilføj til kurv",
+      "quick_view": "Tilføj til kurv",
       "available_colors_count": {
         "one": "",
         "other": ""
@@ -174,8 +174,8 @@
       "view_in_space": "",
       "zoom": "",
       "share": "",
-      "size_chart": "",
-      "need_help": "",
+      "size_chart": "Størrelse & Fit",
+      "need_help": "Har du brug for hjælp?",
       "view_details": "",
       "include_taxes": "",
       "shipping_policy_html": "",

@@ -25,6 +25,18 @@
         "default": 2
       },
       {
+        "type": "color",
+        "id": "icon_white_color",
+        "label": "Icon white color",
+        "default": "#ffffff"
+      },
+      {
+        "type": "color",
+        "id": "icon_dark_color",
+        "label": "Icon dark color",
+        "default": "#454545"
+      },
+      {
         "type": "range",
         "id": "button_border_radius",
         "min": 0,

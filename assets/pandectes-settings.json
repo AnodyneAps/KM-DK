@@ -5,7 +5,7 @@
     "primaryLocale": "da",
     "adminMode": false
   },
-  "tsPublished": 1682419460,
+  "tsPublished": 1684929790,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -148,6 +148,27 @@
       "declThirdParty": {
         "da": "Tredje part"
       },
+      "declSeconds": {
+        "da": "sekunder"
+      },
+      "declMinutes": {
+        "da": "minutter"
+      },
+      "declHours": {
+        "da": "timer"
+      },
+      "declDays": {
+        "da": "dage"
+      },
+      "declMonths": {
+        "da": "måneder"
+      },
+      "declYears": {
+        "da": "flere år"
+      },
+      "declSession": {
+        "da": "Session"
+      },
       "cookiesDetailsText": {
         "da": "Cookies detaljer"
       },
@@ -247,7 +268,7 @@
     "previewMode": false,
     "fadeInTimeout": 0,
     "defaultBlocked": 7,
-    "showLink": true,
+    "showLink": false,
     "showImprintLink": false,
     "enabled": true,
     "cookie": {
@@ -260,22 +281,22 @@
     "dismissOnTimeout": false,
     "palette": {
       "popup": {
-        "background": "#FFFFFF",
+        "background": "#F3F3F3",
         "backgroundForCalculations": {
           "a": 1,
-          "b": 255,
-          "g": 255,
-          "r": 255
+          "b": 243,
+          "g": 243,
+          "r": 243
         },
         "text": "#000000"
       },
       "button": {
-        "background": "#000000",
+        "background": "#398E82",
         "backgroundForCalculations": {
           "a": 1,
-          "b": 0,
-          "g": 0,
-          "r": 0
+          "b": 130,
+          "g": 142,
+          "r": 57
         },
         "text": "#FFFFFF",
         "textForCalculation": {
@@ -294,15 +315,15 @@
       "target": "",
       "logo": ""
     },
-    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-bottom-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
+    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-top-right-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
     "compliance": {
       "custom": "<div class=\"cc-compliance cc-highlight\">{{preferences}}{{allow}}<\/div>"
     },
     "type": "custom",
     "layouts": {
-      "basic": "{{messagelink}}{{compliance}}"
+      "basic": "{{message}}{{compliance}}"
     },
-    "position": "bottom",
+    "position": "top-right",
     "theme": "block",
     "revokable": false,
     "animateRevokable": false,
@@ -333,7 +354,7 @@
   },
   "banner": {
     "resetTs": 1681112743,
-    "extraCss": "        .cc-banner-logo {max-width: 24em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 24em!important;width: 24em!important;}}    .cc-message, .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;}    .cc-window{z-index: 2147483647;font-family: inherit;}    .cc-header{font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #FFFFFF;color:#000000;}    .pd-cp-btn{background-color:#000000;color:#FFFFFF!important;}    input + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(0, 0, 0, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(0, 0, 0, 1)}    .pd-cp-ui-close{color:#000000;}    .pd-cp-preferences-slider:before{background-color: #FFFFFF}    .pd-cp-title:before {border-color: #000000!important}    .pd-cp-preferences-slider{background-color:#000000}    .pd-cp-toggle{color:#000000!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #000000}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#000000!important}    .pd-cookie-banner-window {box-shadow: 0 0 18px rgb(0 0 0 \/ 20%);}  ",
+    "extraCss": "        .cc-banner-logo {max-width: 24em!important;}    @media(min-width: 768px) {.cc-window.cc-floating{max-width: 24em!important;width: 24em!important;}}    .cc-message, .cc-header, .cc-logo {text-align: left}    .cc-window-wrapper{z-index: 2147483647;}    .cc-window{z-index: 2147483647;font-family: inherit;}    .cc-header{font-family: inherit;}    .pd-cp-ui{font-family: inherit; background-color: #F3F3F3;color:#000000;}    .pd-cp-btn{background-color:#398E82;color:#FFFFFF!important;}    input + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 0.3)}    .pd-cp-scrolling-section::-webkit-scrollbar{background-color: rgba(0, 0, 0, 0.3)}    input:checked + .pd-cp-preferences-slider{background-color: rgba(0, 0, 0, 1)}    .pd-cp-scrolling-section::-webkit-scrollbar-thumb {background-color: rgba(0, 0, 0, 1)}    .pd-cp-ui-close{color:#000000;}    .pd-cp-preferences-slider:before{background-color: #F3F3F3}    .pd-cp-title:before {border-color: #000000!important}    .pd-cp-preferences-slider{background-color:#000000}    .pd-cp-toggle{color:#000000!important}    @media(max-width:699px) {.pd-cp-ui-close-top svg {fill: #000000}}    .pd-cp-toggle:hover,.pd-cp-toggle:visited,.pd-cp-toggle:active{color:#000000!important}    .pd-cookie-banner-window {}  ",
     "customJavascript": null,
     "showPoweredBy": false,
     "isActive": true,
@@ -357,6 +378,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "da": "Used in connection with customer login."
         }
@@ -368,6 +391,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "da": "Shopify store localization"
         }
@@ -379,6 +404,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
         "purpose": {
           "da": "Used in connection with buyer localization."
         }
@@ -390,6 +417,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "24 hour(s)",
+        "expires": 24,
+        "unit": "declHours",
         "purpose": {
           "da": "Used in connection with navigation through a storefront."
         }
@@ -406,6 +435,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
         "purpose": {
           "da": "Shopify analytics."
         }
@@ -417,6 +448,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "da": "Shopify analytics."
         }
@@ -428,6 +461,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
         "purpose": {
           "da": "Shopify analytics."
         }
@@ -439,6 +474,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "da": "Shopify analytics."
         }
@@ -450,6 +487,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
         "purpose": {
           "da": "Shopify analytics relating to marketing & referrals."
         }
@@ -461,6 +500,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "14 day(s)",
+        "expires": 14,
+        "unit": "declSession",
         "purpose": {
           "da": "Tracks landing pages."
         }
@@ -472,6 +513,8 @@
         "provider": "Google",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "da": "Cookie is set by Google Analytics with unknown functionality"
         }
@@ -483,6 +526,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "30 minute(s)",
+        "expires": 30,
+        "unit": "declMinutes",
         "purpose": {
           "da": "Shopify analytics relating to marketing & referrals."
         }
@@ -494,6 +539,8 @@
         "provider": "Google",
         "firstParty": true,
         "retention": "24 hour(s)",
+        "expires": 24,
+        "unit": "declHours",
         "purpose": {
           "da": "Cookie is placed by Google Analytics to count and track pageviews."
         }
@@ -505,6 +552,8 @@
         "provider": "Google",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "da": "Cookie is set by Google Analytics with unknown functionality"
         }
@@ -516,6 +565,8 @@
         "provider": "Google",
         "firstParty": true,
         "retention": "47 second(s)",
+        "expires": 47,
+        "unit": "declSeconds",
         "purpose": {
           "da": "Cookie is placed by Google Analytics to filter requests from bots."
         }
@@ -527,6 +578,8 @@
         "provider": "Shopify",
         "firstParty": true,
         "retention": "14 day(s)",
+        "expires": 14,
+        "unit": "declSession",
         "purpose": {
           "da": "Tracks landing pages."
         }
@@ -540,6 +593,8 @@
         "provider": "Pinterest",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "da": "Used to group actions for users who cannot be identified by Pinterest."
         }
@@ -551,6 +606,8 @@
         "provider": "Google",
         "firstParty": true,
         "retention": "90 day(s)",
+        "expires": 90,
+        "unit": "declSession",
         "purpose": {
           "da": "Cookie is placed by Google Tag Manager to track conversions."
         }
@@ -562,6 +619,8 @@
         "provider": "Snapchat",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "da": "Used by Snapchat to help identify a visitor."
         }
@@ -573,6 +632,8 @@
         "provider": "Facebook",
         "firstParty": true,
         "retention": "90 day(s)",
+        "expires": 90,
+        "unit": "declSession",
         "purpose": {
           "da": "Cookie is placed by Facebook to track visits across websites."
         }
@@ -584,6 +645,8 @@
         "provider": "Google",
         "firstParty": true,
         "retention": "15 minute(s)",
+        "expires": 15,
+        "unit": "declMinutes",
         "purpose": {
           "da": "To measure the visitors’ actions after they click through from an advert. Expires after each visit."
         }
@@ -595,6 +658,8 @@
         "provider": "Tapad",
         "firstParty": true,
         "retention": "60 day(s)",
+        "expires": 60,
+        "unit": "declSession",
         "purpose": {
           "da": "Used to determine what type of devices is used by a user."
         }
@@ -606,6 +671,8 @@
         "provider": "Tapad",
         "firstParty": true,
         "retention": "60 day(s)",
+        "expires": 60,
+        "unit": "declSession",
         "purpose": {
           "da": "Used to determine what type of devices is used by a user."
         }
@@ -617,6 +684,8 @@
         "provider": "Tapad",
         "firstParty": true,
         "retention": "60 day(s)",
+        "expires": 60,
+        "unit": "declSession",
         "purpose": {
           "da": "Used for data-synchronization with advertisement networks."
         }
@@ -628,6 +697,8 @@
         "provider": "Snapchat",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "da": "Used by Snapchat to determine whether a third party tag will be called in Snap Ads Pixel."
         }
@@ -639,6 +710,8 @@
         "provider": "Google",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "da": "To measure the visitors’ actions after they click through from an advert. Expires after 1 year."
         }
@@ -652,6 +725,8 @@
         "provider": "Unknown",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "da": ""
         }
@@ -663,6 +738,8 @@
         "provider": "Unknown",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "da": ""
         }
@@ -674,6 +751,8 @@
         "provider": "Unknown",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "da": ""
         }
@@ -685,6 +764,8 @@
         "provider": "Unknown",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "da": ""
         }
@@ -696,6 +777,8 @@
         "provider": "Unknown",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "da": ""
         }
@@ -707,6 +790,8 @@
         "provider": "Unknown",
         "firstParty": true,
         "retention": "Session",
+        "expires": -1681112768,
+        "unit": "declSeconds",
         "purpose": {
           "da": ""
         }
@@ -718,6 +803,8 @@
         "provider": "Unknown",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "da": ""
         }
@@ -729,6 +816,8 @@
         "provider": "Unknown",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "da": ""
         }
@@ -740,6 +829,8 @@
         "provider": "Unknown",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "da": ""
         }
@@ -751,6 +842,8 @@
         "provider": "Unknown",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "da": ""
         }
@@ -762,6 +855,8 @@
         "provider": "Unknown",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "da": ""
         }
@@ -773,6 +868,8 @@
         "provider": "Unknown",
         "firstParty": true,
         "retention": "1 year(s)",
+        "expires": 1,
+        "unit": "declYears",
         "purpose": {
           "da": ""
         }
@@ -784,6 +881,8 @@
         "provider": "Unknown",
         "firstParty": true,
         "retention": "24 hour(s)",
+        "expires": 24,
+        "unit": "declHours",
         "purpose": {
           "da": ""
         }

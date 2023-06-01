@@ -429,8 +429,8 @@
           <span class="checkout-button__lock">{%- render 'icon' with 'lock' -%}</span>
 
           {{- 'cart.general.checkout' | t -}}
-          <span class="square-separator"></span>
-          {{- cart.total_price | money_with_currency -}}
+          {%- comment -%}  <span class="square-separator"></span>
+      {{- cart.total_price | money_with_currency -}}{%- endcomment -%}
         </button>
       {%- else -%}
         <a

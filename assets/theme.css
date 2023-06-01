@@ -5548,8 +5548,8 @@ select:focus,
 
 .drawer__footer {
   margin-top: auto;
-  padding-top: 20px;
-  padding-bottom: 20px; /* The footer in drawer has a slightly smaller padding in block direction */
+  padding-top: 10px;
+  padding-bottom: 10px; /* The footer in drawer has a slightly smaller padding in block direction */
   z-index: 1;
   transform: translateZ(0); /* For some reason position: relative cause an issue on Safari so I use this to promote the element */
 }
@@ -8123,23 +8123,24 @@ input:checked + .popover__choice-label::after,
 .discount-badge {
   display: flex;
   align-items: center;
-  padding: 3px 6px;
+  padding: 5px 6px 3px 6px ;
   font-family: var(--text-font-family);
   font-style: var(--text-font-style);
   font-weight: var(--text-font-bold-weight);
-  font-size: 11px;
+  font-size: 12px;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
-  background: rgb(var(--heading-color));
-  color: rgb(var(--background));
+  letter-spacing: -0.5px;
+  background: rgba(114,114,114,0.21);
+  color: rgb(55,55,55);
+  border-radius:3px;
 }
 
 [dir="ltr"] .discount-badge svg {
-  margin-right: 8px;
+  margin-right: 4px;
 }
 
 [dir="rtl"] .discount-badge svg {
-  margin-left: 8px;
+  margin-left: 4px;
 }
 
 .discount-badge svg {
@@ -8486,7 +8487,6 @@ input:checked + .popover__choice-label::after,
 }
 
 /* Mini-cart specificities */
-
 .mini-cart__discount-list {
   display: grid;
   grid-gap: 10px;
@@ -8572,6 +8572,9 @@ input:checked + .popover__choice-label::after,
     .mini-cart__order-note {
       padding-bottom: max(24px, env(safe-area-inset-bottom, 0px) + 24px);
     }
+  }
+  .mini-cart__drawer-footer{
+    padding-bottom: 15px;
   }
 }
 
@@ -12341,17 +12344,31 @@ input:checked + .popover__choice-label::after,
       position: relative;
       box-shadow:0 0 0 2px rgb(var(--text-color));
 }
+.thumbnails_color_links_inner_wrapper .white.active-color::after,
 .thumbnails_color_links_inner_wrapper .active-color::after{
-  content: '\2713';
-  color: white;
+  content: '';
   width: 100%;
   height: 100%;
-  font-size: 28px;
   position: absolute;
   display: flex;
   justify-content: center;
   align-items: center;
-  text-shadow: 0 0 3px rgba(0, 0, 0, 0.8);
+  z-index: 2;
+}
+.thumbnails_color_links_inner_wrapper .active-color::after{
+  background-image: var(--check-mark-svg-url);
+}
+.thumbnails_color_links_inner_wrapper .white.active-color::after{
+  background-image: var(--check-mark-dark-svg-url);
+}
+.thumbnails_color_links_inner_wrapper .active-color::before{
+  content: '';
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.1);
+  z-index: 1;
 }
 /* Custom element that controls the "payment terms" */
 shopify-payment-terms {
@@ -15855,4 +15872,13 @@ input::-webkit-inner-spin-button {
 /* Firefox */
 input[type=number] {
   -moz-appearance: textfield;
+}
+
+/* Dcart app  simple info tag  */
+.sc_simple-info .sc_simple-info__tag,
+.sc_simple-info .sc_simple-info__row {
+margin-bottom: 0 !important;
+}
+.sc_simple-info .sc_simple-info__row strong{
+font-weight: 700 !important;
 }
