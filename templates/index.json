@@ -10,7 +10,7 @@
             "mobile_image": "shopify:\/\/shop_images\/anodyne-new-mobile_cover.jpg",
             "text_position": "middle_center",
             "subheading": "",
-            "title": "Få en bedre kropsholdning med Anodyne® og reducer smerter og spændinger",
+            "title": "VI fejrer vores 9-års fødselsdag med op til 50% rabat",
             "subtitle": "",
             "button_1_text": "Udforsk nu",
             "button_1_link": "shopify:\/\/collections",
@@ -595,12 +595,27 @@
         "button_text_color": "rgba(0,0,0,0)"
       }
     },
+    "06c50e8d-11a2-4906-8bc3-f3a55e66eae8": {
+      "type": "newsletter",
+      "settings": {
+        "reveal_on_scroll": true,
+        "image": "shopify:\/\/shop_images\/newsletter-bg.jpg",
+        "subheading": "Tilmeld dig til vores nyhedsbrev",
+        "content": "<p>Få tilbud, rabatter og information om nye produkter direkte til din mail. <\/p>",
+        "text_position": "right",
+        "text_alignment": "left",
+        "text_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
     "48123f46-b24b-484c-a78b-e5de7034baed": {
       "type": "custom-html",
       "settings": {
         "subheading": "",
         "title": "",
-        "html": "<!-- TrustBox widget - Horizontal -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"5406e65db0d04a09e042d5fc\" data-businessunit-id=\"541889ee00006400057a5d7f\" data-style-height=\"28px\" data-style-width=\"100%\" data-theme=\"light\">\n  <a href=\"https:\/\/dk.trustpilot.com\/review\/www.anodyne.dk\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->\n<br>",
+        "html": "<br><!-- TrustBox widget - Horizontal -->\n<div class=\"trustpilot-widget\" data-locale=\"da-DK\" data-template-id=\"5406e65db0d04a09e042d5fc\" data-businessunit-id=\"541889ee00006400057a5d7f\" data-style-height=\"28px\" data-style-width=\"100%\" data-theme=\"light\">\n  <a href=\"https:\/\/dk.trustpilot.com\/review\/www.anodyne.dk\" target=\"_blank\" rel=\"noopener\">Trustpilot<\/a>\n<\/div>\n<!-- End TrustBox widget -->\n<br>",
         "add_vertical_spacing": false,
         "background_type": "full_width",
         "background": "rgba(0,0,0,0)",
@@ -623,6 +638,7 @@
     "c03d3e9f-f58b-43a3-9420-6a9d5f0433ae",
     "de594507-95aa-4168-bc53-1c141c0792aa",
     "37a3971a-4d55-4156-87ad-193a04a88685",
+    "06c50e8d-11a2-4906-8bc3-f3a55e66eae8",
     "48123f46-b24b-484c-a78b-e5de7034baed"
   ]
 }

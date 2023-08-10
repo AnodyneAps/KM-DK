@@ -3,15 +3,6 @@
     "main": {
       "type": "main-list-collections",
       "blocks": {
-        "915db04c-cf4e-45cc-989c-f331a89f7873": {
-          "type": "collection",
-          "settings": {
-            "collection": "demosalg",
-            "text_color": "rgba(0,0,0,0)",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        },
         "666e27f9-9682-4289-895e-82cc691d822b": {
           "type": "collection",
           "settings": {
@@ -75,6 +66,16 @@
             "overlay_opacity": 30
           }
         },
+        "915db04c-cf4e-45cc-989c-f331a89f7873": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "demosalg",
+            "text_color": "rgba(0,0,0,0)",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        },
         "ef2a7b17-60b6-48fe-b755-a33cec665a87": {
           "type": "collection",
           "settings": {
@@ -86,7 +87,6 @@
         }
       },
       "block_order": [
-        "915db04c-cf4e-45cc-989c-f331a89f7873",
         "666e27f9-9682-4289-895e-82cc691d822b",
         "887d80bf-b4b1-4e45-b33c-a722262f07fd",
         "560a82dd-9711-4118-8e7a-d76e2762b73b",
@@ -94,6 +94,7 @@
         "7b829f4b-1f87-4e72-b4f8-da9f016cd78e",
         "dd604076-571e-4dd7-802d-291cb4ea2695",
         "f76ab255-2d18-46ae-b507-994c7bc55648",
+        "915db04c-cf4e-45cc-989c-f331a89f7873",
         "ef2a7b17-60b6-48fe-b755-a33cec665a87"
       ],
       "settings": {

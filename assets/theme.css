@@ -137,7 +137,9 @@ textarea {
   margin: 0;
   text-align: inherit;
 }
-
+.button-center{
+  text-align: center !important;
+}
 button,
 [type="submit"] {
   padding: 0;

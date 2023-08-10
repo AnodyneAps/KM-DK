@@ -3,10 +3,25 @@
     "main": {
       "type": "main-page",
       "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "7a1dc10f-c7d8-488d-a650-734edb85ae2c": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div class=\"button-center\"><a href=\"\/collections\" class=\"button button--small button--primary\">SE POSTURE SHIRTS<\/a><\/div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "7a1dc10f-c7d8-488d-a650-734edb85ae2c"
   ]
 }

@@ -44,6 +44,7 @@
         },
         "7d730f1e-03a8-4b58-8b66-855e35aabc99": {
           "type": "quantity_discounts",
+          "disabled": true,
           "settings": {
             "show_quantity_discounts": true
           }

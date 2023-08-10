@@ -1,0 +1,160 @@
+{
+  "sections": {
+    "cf5cb5ea-cf46-4822-8e89-27171a1bac15": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "reveal_on_scroll": true,
+        "section_height": "auto",
+        "image": "shopify:\/\/shop_images\/hovedpine_1512x_912a3302-716c-44ab-b263-f632f153cdae.webp",
+        "subheading": "",
+        "title": "Hovedpine",
+        "content": "",
+        "button_text": "",
+        "button_link": "",
+        "link_style": "link",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "middle_center",
+        "text_color": "#ffffff",
+        "button_background": "#ffffff",
+        "button_text_color": "#000000",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "page_width": "medium"
+      }
+    },
+    "7727da40-5ffb-48cf-982d-2b8dc40a04f0": {
+      "type": "rich-text",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "content": "<p><a href=\"\/pages\/rygsmerter\/\">Smerter i øvre ryg<\/a> | <a href=\"\/pages\/nakkesmerter\/\">Nakkesmerter<\/a> | <a href=\"\/pages\/skuldersmerter\/\">Skuldersmerter<\/a> | <a href=\"\/pages\/laendesmerter\/\">Smerter i nedre ryg<\/a><\/p><h1>Behandling af kronisk hovedpine og spændingshovedpine<\/h1><p>Konstant hovedpine og spændingshovedpine kan være enormt generende i dagligdagen. Holdningskorrigerende tøj fra Anodyne® kan medvirke til at reducere de gener, smerter og spændinger, der ofte er årsagen til hovedpine. Det viser en <a href=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0596\/7842\/5237\/files\/Posture-Shirt-Ko_rperhaltung-Auswertung-Anodyne-2019-german.pdf?v=1634903548\" target=\"_blank\">undersøgelse<\/a> fra 2019 foretaget i samarbejde med Bern University of Applied Sciences, hvor 1039 brugere blandt andet blev spurgt ind til deres smerter og spændinger i hoved, nakke, ryg og skuldre før og efter, de begyndte at bruge holdningskorrigerende tøj fra Anodyne.* Som det ses nedenfor, så taler tallene for sig selv; hele 85% af de adspurgte med hovedpine føler, at de er blevet mere opmærksomme på deres kropsholdning, efter de begyndte at bruge Anodyne holdningstøj. 69% føler, at hyppigheden af deres hovedpine er blevet mindre. 77% føler, at intensiteten af deres hovedpine er reduceret. Samtidig giver langt størstedelen udtryk for, at de modtager færre behandlinger i form af fysioterapi, kiropraktik og massage. Nedenfor kan du se besvarelser fra de 266 respondenter, som har angivet, at de døjer med hovedpine.<\/p><p>*Brugerne har alle brugt en Alignme BH eller en Posture Shirt 2.0.<\/p>",
+        "button_text": "",
+        "button_link": "",
+        "background_type": "full_width",
+        "text_width": "medium",
+        "text_position": "center",
+        "text_alignment": "center",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "7a1dc10f-c7d8-488d-a650-734edb85ae2c": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<div class=\"button-center\"><a href=\"\/collections\" class=\"button button--small button--primary\">SE POSTURE SHIRTS<\/a><\/div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "ff6075b6-7e1d-42eb-b4a5-b696b2545972": {
+      "type": "featured-collections",
+      "blocks": {
+        "template--19131374600517__ff6075b6-7e1d-42eb-b4a5-b696b2545972-1687164657340ecec5-0": {
+          "type": "collection",
+          "settings": {
+            "collection": "posture-shirt",
+            "label": "",
+            "button_text": "",
+            "button_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19131374600517__ff6075b6-7e1d-42eb-b4a5-b696b2545972-1687164657340ecec5-0"
+      ],
+      "settings": {
+        "subheading": "",
+        "title": "Se vores udvalg af Posture Shirts her",
+        "content": "",
+        "products_count": 4,
+        "products_per_row": 4,
+        "stack_products": true,
+        "show_cta": true,
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "dfaab0b6-5bd8-4682-869c-6fe91b2bf47d": {
+      "type": "image-with-text",
+      "blocks": {
+        "template--19131374600517__dfaab0b6-5bd8-4682-869c-6fe91b2bf47d-16871644997986cee9-0": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hovedpine-square_720x481_d45c54ef-9c54-464a-a5ba-5cf1c2716bca.webp",
+            "tab_label": "Item",
+            "subheading": "",
+            "title": "Hvorfor får man hovedpine?",
+            "content": "<p>Der findes utallige årsager til hovedpine, men forkerte arbejdsstillinger, stillesiddende arbejde og dårlig holdning kan være medvirkende faktorer. Det skyldes, at hovedpine ofte er forårsaget af låsninger og spændinger i ryg og nakke, når vi ved en forkert arbejdsstilling eller dårlig holdning belaster muskulaturen og dermed modarbejder kroppens naturlige og sunde holdning. Symptomerne vil ofte tage til i løbet af dagen, fordi vi belaster de allerede udsatte områder, når vi for eksempel indtager forkerte arbejdsstillinger eller har en dårlig holdning.1<\/p>",
+            "button_text": "",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--19131374600517__dfaab0b6-5bd8-4682-869c-6fe91b2bf47d-16871644997986cee9-0"
+      ],
+      "settings": {
+        "reveal_on_scroll": true,
+        "background_type": "full_width",
+        "background_overlap": "image",
+        "image_position": "left",
+        "text_alignment": "center",
+        "cycle_speed": 8,
+        "accent_background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)",
+        "button_background": "rgba(0,0,0,0)",
+        "button_text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "597613b3-db78-4245-846d-75476e47a29e": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<h2>Konstant hovedpine<\/h2><p>Konstant eller hyppig hovedpine kan være enormt generende og reducere livskvalitet. Hovedpine kan opfattes som kroppens advarselssignal om, at noget skal ændres. Sidder man for eksempel længe foran sin computer i samme stilling eller på anden vis belaster kroppen uhensigtsmæssigt og dermed får ømme muskler, kan det udløse hovedpine. Med hovedpine følger ofte anspændthed, da spændinger i musklerne er en del af kroppens forsvarsmekanisme mod smerter. For hovedpinepatienter fører det ofte til spændinger i nakke, skuldre og ryg. Mellem hovedpinerne har mange patienter derfor en lidt foroverbøjet kropsholdning, hvor skuldrene og hovedet er trukket frem. Kroppen er imidlertid ikke gearet til denne belastning, og konsekvenserne kan derfor komme til udtryk gennem endnu flere smerter.<sup>2<\/sup> Som undersøgelsen ovenfor viser, kan Anodyne holdningskorrigerende tøj være en god medspiller i kampen mod at komme hovedpinen til livs. Langt størstedelen af vores brugere ser en tydelig forbedring ved deres kropsholdning, efter de begyndte at bruge en holdningstrøje fra Anodyne. Samtidig føler 69%, at hyppigheden af deres hovedpine er langt mindre, efter de begyndte at bruge et Anodyne produkt.<\/p>\n<h2>Behandling af hovedpine<\/h2>\n<p>Den præcise årsag til hovedpine eller spændingshovedpine er ikke altid nem at afklare. Og det kan derfor være svært at vide, hvilken en behandlingsform man skal ty til, for hurtigst muligt at slippe af med det igen. Undersøgelsen ovenfor viser imidlertid,&nbsp;at holdningskorrektion har stor betydning&nbsp;for mange af dem, der lider af hovedpine. Holdningskorrektion er en afgørende faktor i arbejdet med at optimere sine arbejdsstillinger. Det er vigtigt at undgå ensidig belastende og uhensigtsmæssige arbejdsstillinger, der giver spændinger og smerter i hovedet.<sup>3<\/sup>&nbsp;Studier viser endvidere, at der som oftest skal mere end massage til at afhjælpe kronisk hovedpine, nemlig aktive øvelser og holdningskorrektion.<sup>4<\/sup>&nbsp;Det kan for eksempel være vigtigt at lære, hvordan man&nbsp;holder hovedet og skuldrene for at undgå ensidig belastning, der kan resultere i konstant hovedpine.<sup>5<\/sup>&nbsp;Det er netop denne øvelse en Andoyne holdningstrøje kan hjælpe dig med i din dagligdag. Brug den ved skrivebordsarbejde, til træning, derhjemme eller i fritiden. Den tætsiddende funktion gør den nem at have på under dit hverdagstøj.<\/p>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "rgba(0,0,0,0)",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    },
+    "6ce34c6f-8f4a-499f-8358-58f0b90ca243": {
+      "type": "custom-liquid",
+      "settings": {
+        "subheading": "",
+        "title": "",
+        "liquid": "<h2>Hvordan behandles hovedpine med holdningskorrektion?<\/h2>\n<p>Da det ofte kan være svært at finde årsagen til hovedpine, er det samtidig også svært at vide, præcis hvilken behandlingsform der er mest effektiv. Men som tidligere nævnt, anbefales det, at du blandt andet arbejder med din kropsholdning, hvis du vil din hovedpine til livs. Dette bekræftes også af ovenstående undersøgelse, der viser, at hele 69% af de adspurgte, der er plaget af hovedpine, føler, at hyppigheden af deres hovedpiner er mindre, efter de begyndte at bruge holdningskorrigerende tøj fra Anodyne. Samtidig føler hele 77%, at intensiteten af deres hovedpine er recuderet. Vi anbefaler at Anodyne® holdningskorrigerende tøj bruges som et supplement til træning, bevægelse og eventuel behandling. Holdningskorrigerende tøj er ikke et værktøj, som skal erstatte en sund og aktiv livsstil.<\/p>\n<h2>Øvelser til at lindre hovedpine<\/h2>\n<p>I nogle tilfælde kan behandling af hovedpine med fordel være en kombination af holdningskorrektion og øvelser, der også kan afhjælpe spændingerne. Her er en række øvelser, der med fordel kan kombineres med holdningskorrektion i jagten på at komme hovedpinen til livs:<sup>6<\/sup><\/p>\n<p><strong>Rul med skuldrene<\/strong>: Træk skuldrene så højt op mod ørerne, som du kan. Træk dem nu så langt bagud som muligt. Hold dem tilbagetrukket, mens du sænker dem så langt ned som muligt. Slip til sidst spændingen, så skuldrene falder tilbage på plads. Skift retning. Gentag denne øvelse 3-5 gange, gerne flere gange dagligt.<\/p>\n<p><strong>Lang nakke: <\/strong>Du kan lave denne øvelse liggende, siddende eller stående. Træk hagen ind, mens du gør nakken lang (lav dobbelthage). Mærk hvordan det strækker ned langs nakken, helt ned til skuldrene. Gentag gerne øvelsen så mange gange, du orker.<\/p>\n<p><strong>Nakken til siden: <\/strong>Træk hagen ind, mens du lægger øret ned mod skuldrene. Hold dette stræk i 20-30 sek. Gentag øvelsen til modsatte side.<\/p>\n<p><strong>Kig til siden: <\/strong>Du kan lave denne øvelse liggende, siddende eller stående. Træk hagen ind, mens du gør nakken lang (lav dobbelthage). Drej hovedet så langt du kan til den ene side og hold stillingen lidt. Gentag til modsatte side. For at opnå mere stræk, kan du placere modsatte hånd på hovedet. Gentag denne øvelse 3-5 gange, gerne flere gange dagligt.<\/p>\n<h2>Betegnelser for hovedpine<\/h2>\n<p>Hovedpine, spændingshovedpine, konstant hovedpine, kronisk hovedpine, kronisk spændingshovedpine, konstant spændingshovedpine, hovedpine hver dag, vedvarende hovedpine, behandling af hovedpine, hovedpine lindring, hjælp mod hovedpine.<\/p>\n<div class=\"yc-headache-footnote\">\n<p><sup>​​​​​1 &amp; 3<\/sup><a href=\"https:\/\/www.sundhed.dk\/borger\/patienthaandbogen\/hjerne-og-nerver\/sygdomme\/hovedpine\/hovedpine-af-spaendingstype\/\" target=\"_blank\" rel=\"noopener noreferrer\">www.sundhed.dk<\/a><\/p>\n<p><sup>​​​​​2 &amp; 6<\/sup><a href=\"https:\/\/www.jegharhovedpine.dk\/spaendingshovedpine.php\" target=\"_blank\" rel=\"noopener noreferrer\">www.jegharhovedpine.dk<\/a><\/p>\n<p><sup>​​​​​4 &amp; 5<\/sup><a href=\"https:\/\/netdoktor.dk\/sygdomme\/fakta\/slip-af-med-spaendingshovedpine.htm\" target=\"_blank\" rel=\"noopener noreferrer\">www.netdoktor.dk<\/a><\/p>\n<\/div>",
+        "add_vertical_spacing": true,
+        "background_type": "full_width",
+        "background": "#eaeaea",
+        "text_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "cf5cb5ea-cf46-4822-8e89-27171a1bac15",
+    "main",
+    "7727da40-5ffb-48cf-982d-2b8dc40a04f0",
+    "7a1dc10f-c7d8-488d-a650-734edb85ae2c",
+    "ff6075b6-7e1d-42eb-b4a5-b696b2545972",
+    "dfaab0b6-5bd8-4682-869c-6fe91b2bf47d",
+    "597613b3-db78-4245-846d-75476e47a29e",
+    "6ce34c6f-8f4a-499f-8358-58f0b90ca243"
+  ]
+}

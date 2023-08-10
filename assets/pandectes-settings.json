@@ -5,7 +5,7 @@
     "primaryLocale": "da",
     "adminMode": false
   },
-  "tsPublished": 1684929790,
+  "tsPublished": 1686556194,
   "declaration": {
     "showPurpose": false,
     "showProvider": false,
@@ -86,6 +86,9 @@
       },
       "erasureSectionParagraphText": {
         "da": "Du har ret til at bede alle dine data om at blive slettet. Derefter har du ikke længere adgang til din konto."
+      },
+      "declIntroText": {
+        "da": "Vi bruger cookies til at optimere hjemmesidens funktionalitet, analysere ydeevnen og give dig en personlig oplevelse. Nogle cookies er nødvendige for at få hjemmesiden til at fungere og fungere korrekt. Disse cookies kan ikke deaktiveres. I dette vindue kan du administrere dine præferencer for cookies."
       }
     },
     "categories": {
@@ -315,7 +318,7 @@
       "target": "",
       "logo": ""
     },
-    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-top-right-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
+    "window": "<div role=\"dialog\" aria-live=\"polite\" aria-label=\"cookieconsent\" aria-describedby=\"cookieconsent:desc\" id=\"pandectes-banner\" class=\"cc-window-wrapper cc-top-wrapper\"><div class=\"pd-cookie-banner-window cc-window {{classes}}\"><!--googleoff: all-->{{children}}<!--googleon: all--><\/div><\/div>",
     "compliance": {
       "custom": "<div class=\"cc-compliance cc-highlight\">{{preferences}}{{allow}}<\/div>"
     },
@@ -323,7 +326,7 @@
     "layouts": {
       "basic": "{{message}}{{compliance}}"
     },
-    "position": "top-right",
+    "position": "top",
     "theme": "block",
     "revokable": false,
     "animateRevokable": false,

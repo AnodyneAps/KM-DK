@@ -253,8 +253,8 @@
       "scrolling-banner": {
         "type": "scrolling-banner",
         "settings": {
-          "text": "1-2 dages levering ◦ Fri fragt ved køb over 399 kr ◦ 150.000+ tilfredse kunder i Danmark ◦ 30 dages fuld returret ◦ Gratis ombytning ◦",
-          "link": "shopify:\/\/pages\/rabatkode",
+          "text": "<strong>🇩🇰 Vi fejrer vores 9-års fødselsdag med op til -50% rabat i webshoppen ●<\/strong>",
+          "link": "",
           "text_size": 74,
           "line_height": 2,
           "speed": 2,
@@ -265,7 +265,7 @@
           "stencil_text": "",
           "overlay_style_tint": false,
           "color_scheme": "custom",
-          "color_bg": "#265876",
+          "color_bg": "#f6a429",
           "color_text": "#ffffff"
         }
       }
@@ -286,6 +286,18 @@
         "disabled": false,
         "settings": {
         }
+      },
+      "15849993549880743979": {
+        "type": "shopify:\/\/apps\/ga-free-gift-bogo\/blocks\/app-embeded\/58ed8460-f12d-44c1-87aa-ec47351b5fd7",
+        "disabled": false,
+        "settings": {
+        }
+      },
+      "7055266611914062966": {
+        "disabled": false,
+        "settings": {
+        },
+        "type": "shopify:\/\/apps\/free-gifts-bogo-cart-upsell\/blocks\/app-embed\/034c3068-4726-454b-bc91-4c784c8eca33"
       }
     }
   },
