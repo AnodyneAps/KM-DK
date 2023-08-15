@@ -133,7 +133,7 @@
             "type": "text",
             "settings": {
               "title": "Kontakt",
-              "content": "<p>Har du generelle spørgsmål til valg af produkter eller andet? Så kontakt os endelig. Vores søde kolleger sidder klar til at hjælpe dig.<strong><br\/><br\/>E-mail:<\/strong> info@anodyne.dk<br\/><strong>Telefon:<\/strong> 5389 0017<\/p><p><strong>Åbningstider<br\/>Man - tors<\/strong>: 10:00 - 15:00<br\/><strong>Fre:<\/strong> 10:00 - 14:00<\/p>"
+              "content": "<p>Har du generelle spørgsmål til valg af produkter eller andet? Så kontakt os endelig. Vores søde kolleger sidder klar til at hjælpe dig.<strong><br\/><br\/>E-mail:<\/strong> info@anodyne.dk<br\/><strong>Telefon:<\/strong> 5389 0017<\/p><p><strong>Åbningstider<br\/>Man - tors<\/strong>: 10:00 - 15:00<br\/><strong>Fre:<\/strong> 10:00 - 14:00<br\/><br\/><strong>Anodyne ApS<br\/>P.O. Pedersens Vej 9<br\/>8200 Aarhus N<\/strong><br\/><\/p>"
             }
           },
           "social_media": {
@@ -292,12 +292,6 @@
         "disabled": false,
         "settings": {
         }
-      },
-      "7055266611914062966": {
-        "disabled": false,
-        "settings": {
-        },
-        "type": "shopify:\/\/apps\/free-gifts-bogo-cart-upsell\/blocks\/app-embed\/034c3068-4726-454b-bc91-4c784c8eca33"
       }
     }
   },
